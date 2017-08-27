@@ -1,0 +1,30 @@
+MetaData Begin
+	Name	= Case1_Thermal_initial.vo
+	Version	= "Intrepid GeoModeller v3.3.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build 6190f4ee95d4+ "
+	Lithology Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Alias	= Lithology
+		Units	= "Lithology"
+	Lithology End
+	ThermalConductivity Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Alias	= ThermalConductivity
+		Units	= "W/m3"
+	ThermalConductivity End
+	HeatProductionRate Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Alias	= HeatProductionRate
+		Units	= "W/mK"
+	HeatProductionRate End
+	Extensions Begin
+		LithologyMapping Begin
+			Empty = yes
+		LithologyMapping End
+	Extensions End
+MetaData End

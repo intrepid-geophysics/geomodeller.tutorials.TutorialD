@@ -1,0 +1,7 @@
+HoleID,From,To,Geology
+HRW1,0,129.9,LPalaeozoic
+HRW1,129.9,2771.2,Proterozoic
+HRW1,2771.2,2800,Basement
+HRW2,0,436.4,LPalaeozoic
+HRW2,436.4,3171.6,Proterozoic
+HRW2,3171.6,3200,Basement

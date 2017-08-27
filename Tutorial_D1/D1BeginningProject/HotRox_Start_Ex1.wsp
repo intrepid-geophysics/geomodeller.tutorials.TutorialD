@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<VLDocking version="2.1">
+<DockingDesktop name="">
+<DockingPanel>
+<Split orientation="1" location="0.14006514657980457">
+<Dockable>
+<Key dockName="Explore"/>
+</Dockable>
+<Split orientation="1" location="0.49746835443037973">
+<Split orientation="0" location="0.6770721205597416">
+<TabbedDockable>
+<Dockable>
+<Key dockName="TopoMap"/>
+</Dockable>
+<Dockable>
+<Key dockName="sRL-1000"/>
+</Dockable>
+<Dockable>
+<Key dockName="sRL-2000"/>
+</Dockable>
+<Dockable>
+<Key dockName="sRL-3000"/>
+</Dockable>
+</TabbedDockable>
+<TabbedDockable>
+<Dockable>
+<Key dockName="sAA"/>
+</Dockable>
+<Dockable>
+<Key dockName="sBB"/>
+</Dockable>
+<Dockable>
+<Key dockName="sCC"/>
+</Dockable>
+</TabbedDockable>
+</Split>
+<Dockable>
+<Key dockName="3D View"/>
+</Dockable>
+</Split>
+</Split>
+</DockingPanel>
+<TabGroups>
+<TabGroup>
+<Dockable>
+<Key dockName="TopoMap"/>
+</Dockable>
+<Dockable>
+<Key dockName="sRL-1000"/>
+</Dockable>
+<Dockable>
+<Key dockName="sRL-2000"/>
+</Dockable>
+<Dockable>
+<Key dockName="sRL-3000"/>
+</Dockable>
+</TabGroup>
+<TabGroup>
+<Dockable>
+<Key dockName="sAA"/>
+</Dockable>
+<Dockable>
+<Key dockName="sBB"/>
+</Dockable>
+<Dockable>
+<Key dockName="sCC"/>
+</Dockable>
+</TabGroup>
+</TabGroups>
+</DockingDesktop>
+</VLDocking>

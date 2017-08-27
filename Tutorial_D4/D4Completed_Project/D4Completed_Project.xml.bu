@@ -1,0 +1,1971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?driver version="2.0.0"?>
+<!--Composed by Intrepid GeoModeller 2014 v3.3.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build 2fd0a434b918+, Jul 20 2015-->
+<geo:Project3DEdit xmlns:geo="http://www.geomodeller.com/geo" xmlns:gml="http://www.opengis.net/gml" author="PMMcI" CoordSystem="WGS 84 / UTM zone 54N" date="30/ 7/2008  8:57:44" deflection2d="0.001" deflection3d="0.001" description="HotRox ShortCourse Exercise1" discretisation="10.0" precision="1.0" projectName="HoxRoxProject" unit="m" version="1.0">
+  <geo:Extent3DOfProject>
+    <geo:ExtentBox3D>
+      <geo:Extent3D>
+        <geo:ExtentXY Xmax="90000.0" Xmin="50000.0" Ymax="140000.0" Ymin="100000.0"/>
+        <geo:ExtentZ Zmax="2000.0" Zmin="-10000.0"/>
+      </geo:Extent3D>
+      <geo:GraphicTitle Title="HoxRoxProject">
+        <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+          <geo:ColorShading Blue="255" Green="255" Red="255"/>
+          <geo:ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </geo:Graphic>
+        <geo:Location>
+          <gml:coordinates cs="," decimal="." ts=" ">50000.0,100000.0,-10000.0</gml:coordinates>
+        </geo:Location>
+      </geo:GraphicTitle>
+      <geo:GraphicBox3d>
+        <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+          <geo:ColorShading Blue="255" Green="255" Red="255"/>
+          <geo:ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </geo:Graphic>
+      </geo:GraphicBox3d>
+      <geo:GraphicTick DensityAlongX="4" DensityAlongY="4" DensityAlongZ="3" OnOff="false" TickLength="1600.0">
+        <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+          <geo:ColorShading Blue="255" Green="255" Red="255"/>
+          <geo:ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </geo:Graphic>
+      </geo:GraphicTick>
+      <geo:GraphicLabel LabelFormat="%.1f" OnOff="false">
+        <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+          <geo:ColorShading Blue="255" Green="255" Red="255"/>
+          <geo:ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </geo:Graphic>
+      </geo:GraphicLabel>
+    </geo:ExtentBox3D>
+    <geo:TriAxis>
+      <geo:Axis3DDefinition LabelOrigin="" LabelX="" LabelY="" LabelZ="" OnOff="true" Radius="200.0" Size="800.0" Step="4000.0">
+        <gml:Point>
+          <gml:coordinates cs="," decimal="." ts=" ">46000.0,96000.0,-10000.0</gml:coordinates>
+        </gml:Point>
+        <geo:Length LengthX="4000.0" LengthY="4000.0" LengthZ="4000.0"/>
+      </geo:Axis3DDefinition>
+      <geo:GraphicOrigin>
+        <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+          <geo:ColorShading Blue="255" Green="255" Red="255"/>
+          <geo:ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </geo:Graphic>
+      </geo:GraphicOrigin>
+      <geo:GraphicAxisX>
+        <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+          <geo:ColorShading Blue="255" Green="255" Red="255"/>
+          <geo:ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </geo:Graphic>
+      </geo:GraphicAxisX>
+      <geo:GraphicAxisY>
+        <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+          <geo:ColorShading Blue="255" Green="255" Red="255"/>
+          <geo:ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </geo:Graphic>
+      </geo:GraphicAxisY>
+      <geo:GraphicAxisZ>
+        <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+          <geo:ColorShading Blue="255" Green="255" Red="255"/>
+          <geo:ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </geo:Graphic>
+      </geo:GraphicAxisZ>
+    </geo:TriAxis>
+  </geo:Extent3DOfProject>
+  <geo:Formations>
+    <geo:Formation Name="Basement">
+      <geo:FormationGeology AbsoluteAge="0" DatingTechnique="0" Description="0" ExtraComment="" Genesis="0" Lithology="" MineralComposition="" StratigraphicAge="" Texture=""/>
+      <geo:Geophysics>
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.01" LawType="Normal" Mean="2.9" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-6" LawType="Normal" Mean="4.0E-4" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.1" LawType="Log-normal" Mean="3.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-7" LawType="Log-normal" Mean="1.0E-6" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:ResistivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ResistivityCompoundDistribution>
+        <geo:ConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ConductivityCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+      </geo:Geophysics>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="1" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="105" Green="105" Red="255"/>
+        <geo:ColorWireFrame Blue="105" Green="105" Red="255"/>
+      </geo:Graphic>
+    </geo:Formation>
+    <geo:Formation Name="Cover">
+      <geo:FormationGeology AbsoluteAge="0" DatingTechnique="0" Description="0" ExtraComment="" Genesis="0" Lithology="" MineralComposition="" StratigraphicAge="" Texture=""/>
+      <geo:Geophysics>
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.01" LawType="Normal" Mean="2.2" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-6" LawType="Normal" Mean="1.0E-4" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.1" LawType="Log-normal" Mean="2.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-7" LawType="Log-normal" Mean="1.0E-6" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:ResistivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ResistivityCompoundDistribution>
+        <geo:ConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ConductivityCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+      </geo:Geophysics>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="1" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="142" Green="246" Red="255"/>
+        <geo:ColorWireFrame Blue="142" Green="246" Red="255"/>
+      </geo:Graphic>
+    </geo:Formation>
+    <geo:Formation Name="Granite">
+      <geo:FormationGeology AbsoluteAge="0" DatingTechnique="0" Description="0" ExtraComment="" Genesis="0" Lithology="" MineralComposition="" StratigraphicAge="" Texture=""/>
+      <geo:Geophysics>
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.01" LawType="Normal" Mean="2.7" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-6" LawType="Normal" Mean="8.0E-4" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.1" LawType="Log-normal" Mean="3.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-7" LawType="Log-normal" Mean="1.0E-6" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:ResistivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ResistivityCompoundDistribution>
+        <geo:ConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ConductivityCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+      </geo:Geophysics>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="1" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="47" Green="47" Red="255"/>
+        <geo:ColorWireFrame Blue="47" Green="47" Red="255"/>
+      </geo:Graphic>
+    </geo:Formation>
+    <geo:Formation Name="LPalaeozoic">
+      <geo:FormationGeology AbsoluteAge="0" DatingTechnique="0" Description="0" ExtraComment="" Genesis="0" Lithology="" MineralComposition="" StratigraphicAge="" Texture=""/>
+      <geo:Geophysics>
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.01" LawType="Normal" Mean="2.6" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-6" LawType="Normal" Mean="4.0E-5" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.1" LawType="Log-normal" Mean="2.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-7" LawType="Log-normal" Mean="1.0E-6" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:ResistivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ResistivityCompoundDistribution>
+        <geo:ConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ConductivityCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+      </geo:Geophysics>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="1" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="237" Green="191" Red="126"/>
+        <geo:ColorWireFrame Blue="237" Green="191" Red="126"/>
+      </geo:Graphic>
+    </geo:Formation>
+    <geo:Formation Name="LateGranite1">
+      <geo:FormationGeology AbsoluteAge="0" DatingTechnique="0" Description="0" ExtraComment="" Genesis="0" Lithology="" MineralComposition="" StratigraphicAge="" Texture=""/>
+      <geo:Geophysics>
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="2.67" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="2.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:ResistivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ResistivityCompoundDistribution>
+        <geo:ConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ConductivityCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+      </geo:Geophysics>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="1" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="147" Green="19" Red="255"/>
+        <geo:ColorWireFrame Blue="147" Green="19" Red="255"/>
+      </geo:Graphic>
+    </geo:Formation>
+    <geo:Formation Name="LateGranite2">
+      <geo:FormationGeology AbsoluteAge="0" DatingTechnique="0" Description="0" ExtraComment="" Genesis="0" Lithology="" MineralComposition="" StratigraphicAge="" Texture=""/>
+      <geo:Geophysics>
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="2.67" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.1" LawType="Log-normal" Mean="3.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-7" LawType="Log-normal" Mean="1.0E-6" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:ResistivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ResistivityCompoundDistribution>
+        <geo:ConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ConductivityCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+      </geo:Geophysics>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="1" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="38" Green="38" Red="205"/>
+        <geo:ColorWireFrame Blue="38" Green="38" Red="205"/>
+      </geo:Graphic>
+    </geo:Formation>
+    <geo:Formation Name="LateGranite3">
+      <geo:FormationGeology AbsoluteAge="0" DatingTechnique="0" Description="0" ExtraComment="" Genesis="0" Lithology="" MineralComposition="" StratigraphicAge="" Texture=""/>
+      <geo:Geophysics>
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="2.67" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.1" LawType="Log-normal" Mean="3.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-7" LawType="Log-normal" Mean="1.0E-6" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:ResistivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ResistivityCompoundDistribution>
+        <geo:ConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ConductivityCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+      </geo:Geophysics>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="1" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="147" Green="19" Red="255"/>
+        <geo:ColorWireFrame Blue="147" Green="19" Red="255"/>
+      </geo:Graphic>
+    </geo:Formation>
+    <geo:Formation Name="MaficDyke">
+      <geo:FormationGeology AbsoluteAge="0" DatingTechnique="0" Description="0" ExtraComment="" Genesis="0" Lithology="" MineralComposition="" StratigraphicAge="" Texture=""/>
+      <geo:Geophysics>
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="2.67" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.1" LawType="Log-normal" Mean="3.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-7" LawType="Log-normal" Mean="1.0E-6" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:ResistivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ResistivityCompoundDistribution>
+        <geo:ConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ConductivityCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+      </geo:Geophysics>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="1" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="0" Green="100" Red="0"/>
+        <geo:ColorWireFrame Blue="0" Green="100" Red="0"/>
+      </geo:Graphic>
+    </geo:Formation>
+    <geo:Formation Name="Mesozoic">
+      <geo:FormationGeology AbsoluteAge="0" DatingTechnique="0" Description="0" ExtraComment="" Genesis="0" Lithology="" MineralComposition="" StratigraphicAge="" Texture=""/>
+      <geo:Geophysics>
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.01" LawType="Normal" Mean="2.5" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-6" LawType="Normal" Mean="1.0E-5" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.1" LawType="Log-normal" Mean="2.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-7" LawType="Log-normal" Mean="1.0E-6" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:ResistivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ResistivityCompoundDistribution>
+        <geo:ConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ConductivityCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+      </geo:Geophysics>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="1" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="142" Green="188" Red="142"/>
+        <geo:ColorWireFrame Blue="142" Green="188" Red="142"/>
+      </geo:Graphic>
+    </geo:Formation>
+    <geo:Formation Name="Miocene">
+      <geo:FormationGeology AbsoluteAge="0" DatingTechnique="0" Description="0" ExtraComment="" Genesis="0" Lithology="" MineralComposition="" StratigraphicAge="" Texture=""/>
+      <geo:Geophysics>
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.01" LawType="Normal" Mean="2.4" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-6" LawType="Normal" Mean="2.0E-4" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.1" LawType="Log-normal" Mean="2.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-7" LawType="Log-normal" Mean="1.0E-6" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:ResistivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ResistivityCompoundDistribution>
+        <geo:ConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ConductivityCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+      </geo:Geophysics>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="1" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="12" Green="149" Red="205"/>
+        <geo:ColorWireFrame Blue="12" Green="149" Red="205"/>
+      </geo:Graphic>
+    </geo:Formation>
+    <geo:Formation Name="PalaeoMarker">
+      <geo:FormationGeology AbsoluteAge="0" DatingTechnique="0" Description="0" ExtraComment="" Genesis="0" Lithology="" MineralComposition="" StratigraphicAge="" Texture=""/>
+      <geo:Geophysics>
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="2.67" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-6" LawType="Normal" Mean="2.0E-4" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.1" LawType="Log-normal" Mean="2.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-7" LawType="Log-normal" Mean="1.0E-6" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:ResistivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ResistivityCompoundDistribution>
+        <geo:ConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ConductivityCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+      </geo:Geophysics>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="1" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="255" Green="0" Red="0"/>
+        <geo:ColorWireFrame Blue="255" Green="0" Red="0"/>
+      </geo:Graphic>
+    </geo:Formation>
+    <geo:Formation Name="Proterozoic">
+      <geo:FormationGeology AbsoluteAge="0" DatingTechnique="0" Description="0" ExtraComment="" Genesis="0" Lithology="" MineralComposition="" StratigraphicAge="" Texture=""/>
+      <geo:Geophysics>
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.01" LawType="Normal" Mean="2.8" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-6" LawType="Normal" Mean="5.0E-4" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.1" LawType="Log-normal" Mean="2.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-7" LawType="Log-normal" Mean="1.0E-6" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:ResistivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ResistivityCompoundDistribution>
+        <geo:ConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ConductivityCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+      </geo:Geophysics>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="1" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="165" Green="200" Red="205"/>
+        <geo:ColorWireFrame Blue="165" Green="200" Red="205"/>
+      </geo:Graphic>
+    </geo:Formation>
+    <geo:Formation Name="UPalaeozoic">
+      <geo:FormationGeology AbsoluteAge="0" DatingTechnique="0" Description="0" ExtraComment="" Genesis="0" Lithology="" MineralComposition="" StratigraphicAge="" Texture=""/>
+      <geo:Geophysics>
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.01" LawType="Normal" Mean="2.6" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-6" LawType="Normal" Mean="4.0E-5" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.1" LawType="Log-normal" Mean="2.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-7" LawType="Log-normal" Mean="1.0E-6" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:ResistivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ResistivityCompoundDistribution>
+        <geo:ConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ConductivityCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+      </geo:Geophysics>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="1" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="237" Green="191" Red="126"/>
+        <geo:ColorWireFrame Blue="237" Green="191" Red="126"/>
+      </geo:Graphic>
+    </geo:Formation>
+  </geo:Formations>
+  <geo:Faults>
+    <geo:Fault Name="RangeFront">
+      <geo:FaultGeology BEARING="0.0" CENTER_TYPE="0" DIP="0.0" FAULT_TYPE="0" LATERAL_EXTENT="0.0" RADIUS_OF_INFLUENCE="0.0" RHEOLOGY="0" THICKNESS="0.0" TYPE_NOT_IN_USE="" VERTICAL_EXTENT="0.0"/>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="1" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="255" Green="0" Red="255"/>
+        <geo:ColorWireFrame Blue="255" Green="0" Red="255"/>
+      </geo:Graphic>
+    </geo:Fault>
+    <geo:Fault Name="Western">
+      <geo:FaultGeology BEARING="0.0" CENTER_TYPE="0" DIP="0.0" FAULT_TYPE="0" LATERAL_EXTENT="0.0" RADIUS_OF_INFLUENCE="0.0" RHEOLOGY="0" THICKNESS="0.0" TYPE_NOT_IN_USE="" VERTICAL_EXTENT="0.0"/>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="1" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="255" Green="0" Red="255"/>
+        <geo:ColorWireFrame Blue="255" Green="0" Red="255"/>
+      </geo:Graphic>
+    </geo:Fault>
+  </geo:Faults>
+  <geo:Sections>
+    <geo:Section Name="TopoMap" Description="Topography of the model." IsAxialSurface="false" IsTopography="true">
+      <geo:Structural2DData>
+        <geo:Interfaces>
+          <geo:Interface Provenance="1">
+            <geo:Data Name="Mesozoic"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">68258.617,125161.617 68316.664,126612.766 </gml:coordinates>
+            </gml:LineString>
+          </geo:Interface>
+          <geo:Interface Provenance="1">
+            <geo:Data Name="Western"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">55442.824,134267 55894.828,133288.047 </gml:coordinates>
+            </gml:LineString>
+            <geo:AssociatedFoliationType Azimuth="0.0" Dip="80.0" LineAzimuth="0.0" LineDip="0.0" Method="0" NormalPolarity="true"/>
+          </geo:Interface>
+          <geo:Interface Provenance="1">
+            <geo:Data Name="Miocene"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">73654.695,131706.781 73639.570,129816.156 </gml:coordinates>
+            </gml:LineString>
+          </geo:Interface>
+          <geo:Interface Provenance="1">
+            <geo:Data Name="Miocene"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">73831.039,124407.016 73889.078,122433.453 </gml:coordinates>
+            </gml:LineString>
+          </geo:Interface>
+          <geo:Interface Provenance="1">
+            <geo:Data Name="LPalaeozoic"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">52586.207,134797.25 52412.070,133171.953 </gml:coordinates>
+            </gml:LineString>
+            <geo:AssociatedFoliationType Azimuth="0.0" Dip="5.0" LineAzimuth="0.0" LineDip="0.0" Method="0" NormalPolarity="true"/>
+          </geo:Interface>
+          <geo:Interface Provenance="1">
+            <geo:Data Name="LPalaeozoic"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">50496.551,104032.883 50206.320,100840.352 </gml:coordinates>
+            </gml:LineString>
+            <geo:AssociatedFoliationType Azimuth="0.0" Dip="5.0" LineAzimuth="0.0" LineDip="0.0" Method="0" NormalPolarity="true"/>
+          </geo:Interface>
+          <geo:Interface Provenance="1">
+            <geo:Data Name="Cover"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">51193.105,135029.438 53456.898,135784.031 55662.645,134507.016 56997.703,131140.359 56649.426,127773.688 56301.148,124174.836 57229.887,120634.031 58390.805,117267.359 60364.367,114307.016 63034.484,112623.688 64659.770,109605.297 64311.496,106180.578 63498.852,102813.914 61931.609,100608.164 </gml:coordinates>
+            </gml:LineString>
+            <geo:AssociatedFoliationType Azimuth="0.0" Dip="15.0" LineAzimuth="0.0" LineDip="0.0" Method="0" NormalPolarity="true"/>
+          </geo:Interface>
+          <geo:Interface Provenance="2">
+            <geo:Data Name="RangeFront"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">86601.148,114311.492 89387.359,110306.320 </gml:coordinates>
+            </gml:LineString>
+          </geo:Interface>
+          <geo:Interface Provenance="2">
+            <geo:Data Name="RangeFront"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">74411.492,132770.125 77720.117,126675.289 </gml:coordinates>
+            </gml:LineString>
+          </geo:Interface>
+          <geo:Interface Provenance="2">
+            <geo:Data Name="Granite"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">81957.469,126733.336 84105.172,130100 89213.219,132537.938 </gml:coordinates>
+            </gml:LineString>
+          </geo:Interface>
+          <geo:Interface Provenance="2">
+            <geo:Data Name="LateGranite3"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">79867.820,117852.297 77836.203,115414.367 77023.563,112047.703 78648.852,110596.555 81260.922,112512.070 82654.023,115936.781 81559.320,117858.508 </gml:coordinates>
+            </gml:LineString>
+            <geo:AssociatedFoliationType Azimuth="0.0" Dip="80.0" LineAzimuth="0.0" LineDip="0.0" Method="0" NormalPolarity="true"/>
+          </geo:Interface>
+          <geo:Interface Provenance="3">
+            <geo:Data Name="Cover"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">68142.531,124585.633 70232.188,121973.563 </gml:coordinates>
+            </gml:LineString>
+          </geo:Interface>
+          <geo:Interface Provenance="3">
+            <geo:Data Name="Cover"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">68722.992,127545.977 70696.555,129403.445 70638.508,132073.563 </gml:coordinates>
+            </gml:LineString>
+          </geo:Interface>
+          <geo:Interface Provenance="4">
+            <geo:Data Name="Cover"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">72205.75,133350.578 72960.344,135382.188 72437.930,136310.922 72786.211,137471.844 74585.633,139329.313 </gml:coordinates>
+            </gml:LineString>
+          </geo:Interface>
+          <geo:Interface Provenance="4">
+            <geo:Data Name="Cover"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">78242.531,123308.625 80216.094,122844.258 78764.945,120580.461 </gml:coordinates>
+            </gml:LineString>
+          </geo:Interface>
+          <geo:Interface Provenance="4">
+            <geo:Data Name="Cover"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">71741.383,120116.094 73947.125,121509.195 74817.820,123540.805 76268.969,123540.805 </gml:coordinates>
+            </gml:LineString>
+          </geo:Interface>
+          <geo:Interface Provenance="4">
+            <geo:Data Name="Cover"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">75166.094,115530.461 77081.609,117039.656 </gml:coordinates>
+            </gml:LineString>
+          </geo:Interface>
+          <geo:Interface Provenance="4">
+            <geo:Data Name="Cover"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">74817.820,112686.211 74643.680,111002.875 76327.016,108739.078 78881.031,107984.484 </gml:coordinates>
+            </gml:LineString>
+          </geo:Interface>
+          <geo:Interface Provenance="4">
+            <geo:Data Name="Cover"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">81377.008,107984.484 83408.625,109087.359 83872.992,112570.117 84395.406,114717.813 86310.922,114253.453 88690.805,111235.055 89097.133,109087.359 </gml:coordinates>
+            </gml:LineString>
+          </geo:Interface>
+          <geo:Interface Provenance="4">
+            <geo:Data Name="Cover"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">87762.070,106591.383 85440.227,104850 83524.711,104966.094 81667.242,104269.539 81377.008,102121.836 80100,101018.969 </gml:coordinates>
+            </gml:LineString>
+          </geo:Interface>
+          <geo:Interface Provenance="4">
+            <geo:Data Name="Cover"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">50438.504,105140.227 51541.379,106881.609 52470.113,109029.313 52644.254,111293.102 52702.301,114427.586 52644.254,116865.516 52063.793,118722.992 50786.781,119883.906 50380.461,121973.563 50148.277,125224.141 </gml:coordinates>
+            </gml:LineString>
+            <geo:AssociatedFoliationType Azimuth="0.0" Dip="15.0" LineAzimuth="0.0" LineDip="0.0" Method="0" NormalPolarity="true"/>
+          </geo:Interface>
+          <geo:Interface Provenance="1">
+            <geo:Data Name="PalaeoMarker"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">59551.727,113030.008 59435.633,107399.547 58739.082,102581.727 </gml:coordinates>
+            </gml:LineString>
+          </geo:Interface>
+          <geo:Interface Provenance="1">
+            <geo:Data Name="UPalaeozoic"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">62221.840,112043.227 62047.699,105716.211 61060.918,101885.180 </gml:coordinates>
+            </gml:LineString>
+          </geo:Interface>
+          <geo:Interface Provenance="2">
+            <geo:Data Name="LateGranite2"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">78845.297,120181.609 79341.938,118316.648 </gml:coordinates>
+            </gml:LineString>
+            <geo:AssociatedFoliationType Azimuth="0.0" Dip="80.0" LineAzimuth="0.0" LineDip="0.0" Method="0" NormalPolarity="true"/>
+          </geo:Interface>
+          <geo:Interface Provenance="2">
+            <geo:Data Name="LateGranite2"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">83129.563,115697.164 84297.711,116405.133 84970.273,119166.203 84711.125,121764.453 83221.391,123812.836 81182.656,125821.094 79483.531,125608.703 78929.844,124653.555 78788.930,123512.141 </gml:coordinates>
+            </gml:LineString>
+            <geo:AssociatedFoliationType Azimuth="0.0" Dip="70.0" LineAzimuth="0.0" LineDip="0.0" Method="0" NormalPolarity="true"/>
+          </geo:Interface>
+          <geo:Interface Provenance="2">
+            <geo:Data Name="MaficDyke"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">73914.406,133050.531 74692.102,131387.891 75496.609,129752.055 76703.367,127955.320 77844.328,126276.906 78736.703,124900.523 </gml:coordinates>
+            </gml:LineString>
+            <geo:AssociatedFoliationType Azimuth="0.0" Dip="85.0" LineAzimuth="0.0" LineDip="0.0" Method="0" NormalPolarity="true"/>
+          </geo:Interface>
+          <geo:Interface Provenance="2">
+            <geo:Data Name="MaficDyke"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">79114.828,125369.398 78252.703,126670.156 77226.625,128238.617 76207.578,130035.352 75242.172,131590.734 74518.109,133307.016 </gml:coordinates>
+            </gml:LineString>
+            <geo:AssociatedFoliationType Azimuth="0.0" Dip="85.0" LineAzimuth="0.0" LineDip="0.0" Method="0" NormalPolarity="true"/>
+          </geo:Interface>
+        </geo:Interfaces>
+        <geo:Foliations>
+          <geo:Foliation ObservationID="">
+            <geo:Data Name="RangeFront"/>
+            <geo:FoliationObservation Azimuth="233.82" Dip="85.0" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates cs="," decimal="." ts=" ">87907.188,112250.863</gml:coordinates>
+              </gml:Point>
+            </geo:FoliationObservation>
+          </geo:Foliation>
+          <geo:Foliation ObservationID="">
+            <geo:Data Name="RangeFront"/>
+            <geo:FoliationObservation Azimuth="241.504" Dip="85.0" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates cs="," decimal="." ts=" ">75949.711,129664.652</gml:coordinates>
+              </gml:Point>
+            </geo:FoliationObservation>
+          </geo:Foliation>
+          <geo:Foliation ObservationID="">
+            <geo:Data Name="Granite"/>
+            <geo:FoliationObservation Azimuth="341.565" Dip="75.0" NormalPolarity="false">
+              <gml:Point>
+                <gml:coordinates cs="," decimal="." ts=" ">89474.422,132044.539</gml:coordinates>
+              </gml:Point>
+            </geo:FoliationObservation>
+          </geo:Foliation>
+          <geo:Foliation ObservationID="">
+            <geo:Data Name="Granite"/>
+            <geo:FoliationObservation Azimuth="289.29" Dip="75.0" NormalPolarity="false">
+              <gml:Point>
+                <gml:coordinates cs="," decimal="." ts=" ">82276.723,126501.148</gml:coordinates>
+              </gml:Point>
+            </geo:FoliationObservation>
+          </geo:Foliation>
+          <geo:Foliation ObservationID="">
+            <geo:Data Name="Granite"/>
+            <geo:FoliationObservation Azimuth="321.843" Dip="85.0" NormalPolarity="false">
+              <gml:Point>
+                <gml:coordinates cs="," decimal="." ts=" ">85672.414,129664.66</gml:coordinates>
+              </gml:Point>
+            </geo:FoliationObservation>
+          </geo:Foliation>
+          <geo:Foliation ObservationID="" Provenance="2">
+            <geo:Data Name="Cover"/>
+            <geo:FoliationObservation Azimuth="231.34" Dip="10.0" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates cs="," decimal="." ts=" ">68955.172,123047.418</gml:coordinates>
+              </gml:Point>
+            </geo:FoliationObservation>
+          </geo:Foliation>
+          <geo:Foliation ObservationID="" Provenance="2">
+            <geo:Data Name="Cover"/>
+            <geo:FoliationObservation Azimuth="294.102" Dip="15.0" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates cs="," decimal="." ts=" ">69767.812,129867.816</gml:coordinates>
+              </gml:Point>
+            </geo:FoliationObservation>
+          </geo:Foliation>
+          <geo:Foliation ObservationID="" Provenance="2">
+            <geo:Data Name="Cover"/>
+            <geo:FoliationObservation Azimuth="312.274" Dip="15.0" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates cs="," decimal="." ts=" ">73540.805,138864.945</gml:coordinates>
+              </gml:Point>
+            </geo:FoliationObservation>
+          </geo:Foliation>
+          <geo:Foliation ObservationID="" Provenance="2">
+            <geo:Data Name="Cover"/>
+            <geo:FoliationObservation Azimuth="258.69" Dip="15.0" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates cs="," decimal="." ts=" ">71944.539,136339.938</gml:coordinates>
+              </gml:Point>
+            </geo:FoliationObservation>
+          </geo:Foliation>
+          <geo:Foliation ObservationID="" Provenance="2">
+            <geo:Data Name="Cover"/>
+            <geo:FoliationObservation Azimuth="338.749" Dip="15.0" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates cs="," decimal="." ts=" ">70754.602,132915.227</gml:coordinates>
+              </gml:Point>
+            </geo:FoliationObservation>
+          </geo:Foliation>
+          <geo:Foliation ObservationID="" Provenance="2">
+            <geo:Data Name="Cover"/>
+            <geo:FoliationObservation Azimuth="185.194" Dip="25.0" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates cs="," decimal="." ts=" ">77052.586,122873.277</gml:coordinates>
+              </gml:Point>
+            </geo:FoliationObservation>
+          </geo:Foliation>
+          <geo:Foliation ObservationID="" Provenance="2">
+            <geo:Data Name="Cover"/>
+            <geo:FoliationObservation Azimuth="294.444" Dip="25.0" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates cs="," decimal="." ts=" ">77545.977,119013.223</gml:coordinates>
+              </gml:Point>
+            </geo:FoliationObservation>
+          </geo:Foliation>
+          <geo:Foliation ObservationID="" Provenance="2">
+            <geo:Data Name="Cover"/>
+            <geo:FoliationObservation Azimuth="187.765" Dip="10.0" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates cs="," decimal="." ts=" ">71567.242,119680.75</gml:coordinates>
+              </gml:Point>
+            </geo:FoliationObservation>
+          </geo:Foliation>
+          <geo:Foliation ObservationID="" Provenance="2">
+            <geo:Data Name="Cover"/>
+            <geo:FoliationObservation Azimuth="141.34" Dip="25.0" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates cs="," decimal="." ts=" ">74208.336,120986.785</gml:coordinates>
+              </gml:Point>
+            </geo:FoliationObservation>
+          </geo:Foliation>
+          <geo:Foliation ObservationID="" Provenance="2">
+            <geo:Data Name="Cover"/>
+            <geo:FoliationObservation Azimuth="286.26" Dip="10.0" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates cs="," decimal="." ts=" ">74440.52,113034.48</gml:coordinates>
+              </gml:Point>
+            </geo:FoliationObservation>
+          </geo:Foliation>
+          <geo:Foliation ObservationID="" Provenance="2">
+            <geo:Data Name="Cover"/>
+            <geo:FoliationObservation Azimuth="209.476" Dip="10.0" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates cs="," decimal="." ts=" ">76123.852,108419.828</gml:coordinates>
+              </gml:Point>
+            </geo:FoliationObservation>
+          </geo:Foliation>
+          <geo:Foliation ObservationID="" Provenance="2">
+            <geo:Data Name="Cover"/>
+            <geo:FoliationObservation Azimuth="174.958" Dip="15.0" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates cs="," decimal="." ts=" ">80274.141,107607.184</gml:coordinates>
+              </gml:Point>
+            </geo:FoliationObservation>
+          </geo:Foliation>
+          <geo:Foliation ObservationID="" Provenance="2">
+            <geo:Data Name="Cover"/>
+            <geo:FoliationObservation Azimuth="99.211" Dip="15.0" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates cs="," decimal="." ts=" ">84105.172,110915.805</gml:coordinates>
+              </gml:Point>
+            </geo:FoliationObservation>
+          </geo:Foliation>
+          <geo:Foliation ObservationID="" Provenance="2">
+            <geo:Data Name="Cover"/>
+            <geo:FoliationObservation Azimuth="208.61" Dip="15.0" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates cs="," decimal="." ts=" ">86136.785,113556.898</gml:coordinates>
+              </gml:Point>
+            </geo:FoliationObservation>
+          </geo:Foliation>
+          <geo:Foliation ObservationID="" Provenance="2">
+            <geo:Data Name="Cover"/>
+            <geo:FoliationObservation Azimuth="255.379" Dip="15.0" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates cs="," decimal="." ts=" ">88052.301,110857.762</gml:coordinates>
+              </gml:Point>
+            </geo:FoliationObservation>
+          </geo:Foliation>
+          <geo:Foliation ObservationID="" Provenance="2">
+            <geo:Data Name="Cover"/>
+            <geo:FoliationObservation Azimuth="291.25" Dip="15.0" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates cs="," decimal="." ts=" ">88081.324,108797.125</gml:coordinates>
+              </gml:Point>
+            </geo:FoliationObservation>
+          </geo:Foliation>
+          <geo:Foliation ObservationID="" Provenance="2">
+            <geo:Data Name="Cover"/>
+            <geo:FoliationObservation Azimuth="331.39" Dip="15.0" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates cs="," decimal="." ts=" ">82421.84,104908.047</gml:coordinates>
+              </gml:Point>
+            </geo:FoliationObservation>
+          </geo:Foliation>
+          <geo:Foliation ObservationID="" Provenance="2">
+            <geo:Data Name="Cover"/>
+            <geo:FoliationObservation Azimuth="294.963" Dip="10.0" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates cs="," decimal="." ts=" ">80941.668,102760.348</gml:coordinates>
+              </gml:Point>
+            </geo:FoliationObservation>
+          </geo:Foliation>
+          <geo:Foliation ObservationID="" Provenance="2">
+            <geo:Data Name="Cover"/>
+            <geo:FoliationObservation Azimuth="292.38" Dip="10.0" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates cs="," decimal="." ts=" ">79200.285,100699.711</gml:coordinates>
+              </gml:Point>
+            </geo:FoliationObservation>
+          </geo:Foliation>
+          <geo:Foliation ObservationID="" Provenance="1">
+            <geo:Data Name="Miocene"/>
+            <geo:FoliationObservation Azimuth="88.568" Dip="5.0" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates cs="," decimal="." ts=" ">74405.645,127222.914</gml:coordinates>
+              </gml:Point>
+            </geo:FoliationObservation>
+          </geo:Foliation>
+        </geo:Foliations>
+      </geo:Structural2DData>
+      <geo:Shape3DOfSection FileName="TopoMap.sec"/>
+      <geo:ImageUnderLays>
+        <geo:ImageUnderLay Filename="DTM_contours50m_t1.gif">
+          <geo:ExtentUV Umax="90000.0" Umin="50000.0" Vmax="140000.0" Vmin="100000.0"/>
+        </geo:ImageUnderLay>
+        <geo:ImageUnderLay Filename="HotRoxProject_Geology.png">
+          <geo:ExtentUV Umax="90000.0" Umin="50000.0" Vmax="140000.0" Vmin="100000.0"/>
+        </geo:ImageUnderLay>
+      </geo:ImageUnderLays>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="114" Green="128" Red="249"/>
+        <geo:ColorWireFrame Blue="0" Green="255" Red="255"/>
+      </geo:Graphic>
+      <geo:Intersections>
+        <geo:Curve Degree="1" Name="sBB">
+          <geo:Pole-Weight U="89523.39654" V="139005.27315" Weight="1"/>
+          <geo:Pole-Weight U="50264.36719" V="108332.75781" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="s100000N">
+          <geo:Pole-Weight U="90000" V="100000" Weight="1"/>
+          <geo:Pole-Weight U="50000" V="100000" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sAA">
+          <geo:Pole-Weight U="90000" V="127145" Weight="1"/>
+          <geo:Pole-Weight U="50000" V="127145" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sCC">
+          <geo:Pole-Weight U="90000" V="113587" Weight="1"/>
+          <geo:Pole-Weight U="50000" V="104216" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+      </geo:Intersections>
+    </geo:Section>
+    <geo:Section Name="s100000N" IsAxialSurface="false">
+      <geo:Structural2DData>
+        <geo:Interfaces>
+          <geo:Interface Provenance="1">
+            <geo:Data Name="Cover"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">322.414,1525.896 2992.529,1525.896 6185.058,1235.665 9261.495,597.161 </gml:coordinates>
+            </gml:LineString>
+            <geo:AssociatedFoliationType Azimuth="0.0" Dip="0.0" LineAzimuth="0.0" LineDip="0.0" Method="3" NormalPolarity="true"/>
+          </geo:Interface>
+        </geo:Interfaces>
+      </geo:Structural2DData>
+      <geo:Shape3DOfSection FileName="s100000N.sec"/>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="202" Green="191" Red="255"/>
+        <geo:ColorWireFrame Blue="0" Green="255" Red="255"/>
+      </geo:Graphic>
+      <geo:Intersections>
+        <geo:Curve Degree="1" Name="TopoMap">
+          <geo:Pole-Weight U="40000" V="608.18121" Weight="1"/>
+          <geo:Pole-Weight U="37114.22846" V="609.42588" Weight="1"/>
+          <geo:Pole-Weight U="36152.30461" V="622.57719" Weight="1"/>
+          <geo:Pole-Weight U="34228.45691" V="613.25385" Weight="1"/>
+          <geo:Pole-Weight U="33026.05210" V="591.50724" Weight="1"/>
+          <geo:Pole-Weight U="32064.12826" V="596.22761" Weight="1"/>
+          <geo:Pole-Weight U="30220.44088" V="569.36138" Weight="1"/>
+          <geo:Pole-Weight U="27094.18838" V="455.69655" Weight="1"/>
+          <geo:Pole-Weight U="18436.87375" V="424.13343" Weight="1"/>
+          <geo:Pole-Weight U="18116.23246" V="419.62441" Weight="1"/>
+          <geo:Pole-Weight U="17154.30862" V="376.41298" Weight="1"/>
+          <geo:Pole-Weight U="15150.30060" V="410.60637" Weight="1"/>
+          <geo:Pole-Weight U="6893.78758" V="258.63837" Weight="1"/>
+          <geo:Pole-Weight U="6573.14629" V="254.55207" Weight="1"/>
+          <geo:Pole-Weight U="6252.50501" V="254.92783" Weight="1"/>
+          <geo:Pole-Weight U="5210.42084" V="290.90603" Weight="1"/>
+          <geo:Pole-Weight U="4969.93988" V="295.67338" Weight="1"/>
+          <geo:Pole-Weight U="3126.25251" V="224.53892" Weight="1"/>
+          <geo:Pole-Weight U="2965.93186" V="220.52308" Weight="1"/>
+          <geo:Pole-Weight U="2484.96994" V="218.76174" Weight="1"/>
+          <geo:Pole-Weight U="0" V="307.43910" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="2" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="3" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="4" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="5" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="6" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="7" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="8" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="9" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="10" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="11" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="12" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="13" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="14" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="15" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="16" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="17" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="18" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="19" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="20" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sRL0">
+          <geo:Pole-Weight U="40000" V="0.00392" Weight="1"/>
+          <geo:Pole-Weight U="0" V="0.00392" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sRL2000">
+          <geo:Pole-Weight U="40000" V="1999.98826" Weight="1"/>
+          <geo:Pole-Weight U="0" V="1999.98826" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sRL-3000">
+          <geo:Pole-Weight U="40000" V="-2999.99608" Weight="1"/>
+          <geo:Pole-Weight U="0" V="-2999.99608" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sRL-7000">
+          <geo:Pole-Weight U="40000" V="-7000.01174" Weight="1"/>
+          <geo:Pole-Weight U="0" V="-7000.01174" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sRL-9000">
+          <geo:Pole-Weight U="40000" V="-8999.99608" Weight="1"/>
+          <geo:Pole-Weight U="0" V="-8999.99608" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sRL-1000">
+          <geo:Pole-Weight U="40000" V="-999.98826" Weight="1"/>
+          <geo:Pole-Weight U="0" V="-999.98826" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sRL-2000">
+          <geo:Pole-Weight U="40000" V="-2000.00391" Weight="1"/>
+          <geo:Pole-Weight U="0" V="-2000.00391" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+      </geo:Intersections>
+    </geo:Section>
+    <geo:Section Name="sAA" IsAxialSurface="false">
+      <geo:Structural2DData>
+        <geo:Foliations>
+          <geo:Foliation ObservationID="">
+            <geo:Data Name="Proterozoic"/>
+            <geo:FoliationObservation Azimuth="90.0" Dip="5.0" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates cs="," decimal="." ts=" ">3610.946,-2406.863</gml:coordinates>
+              </gml:Point>
+            </geo:FoliationObservation>
+          </geo:Foliation>
+        </geo:Foliations>
+      </geo:Structural2DData>
+      <geo:Shape3DOfSection FileName="sAA.sec"/>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="191" Green="0" Red="0"/>
+        <geo:ColorWireFrame Blue="0" Green="255" Red="255"/>
+      </geo:Graphic>
+      <geo:Intersections>
+        <geo:Curve Degree="1" Name="TopoMap">
+          <geo:Pole-Weight U="40000" V="652.07332" Weight="1"/>
+          <geo:Pole-Weight U="11783.56713" V="470.49141" Weight="1"/>
+          <geo:Pole-Weight U="8256.51303" V="380.94513" Weight="1"/>
+          <geo:Pole-Weight U="4488.97796" V="350.48577" Weight="1"/>
+          <geo:Pole-Weight U="0" V="380.28756" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="2" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="3" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="4" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sBB">
+          <geo:Pole-Weight U="24342.93916" V="1999.99964" Weight="1"/>
+          <geo:Pole-Weight U="24342.93916" V="-10000.00036" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="-1999.99974430195698005263693630695343017578125" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="10000.0002556980398367159068584442138671875" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sRL-1000">
+          <geo:Pole-Weight U="40000" V="-999.98862" Weight="1"/>
+          <geo:Pole-Weight U="0" V="-999.98862" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sRL-2000">
+          <geo:Pole-Weight U="40000" V="-2000.00427" Weight="1"/>
+          <geo:Pole-Weight U="0" V="-2000.00427" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sRL-3000">
+          <geo:Pole-Weight U="40000" V="-2999.99644" Weight="1"/>
+          <geo:Pole-Weight U="0" V="-2999.99644" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sRL-7000">
+          <geo:Pole-Weight U="40000" V="-7000.01210" Weight="1"/>
+          <geo:Pole-Weight U="0" V="-7000.01210" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sRL-9000">
+          <geo:Pole-Weight U="40000" V="-8999.99644" Weight="1"/>
+          <geo:Pole-Weight U="0" V="-8999.99644" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sRL0">
+          <geo:Pole-Weight U="40000" V="0.00356" Weight="1"/>
+          <geo:Pole-Weight U="0" V="0.00356" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sRL2000">
+          <geo:Pole-Weight U="40000" V="1999.98790" Weight="1"/>
+          <geo:Pole-Weight U="0" V="1999.98790" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+      </geo:Intersections>
+    </geo:Section>
+    <geo:Section Name="sBB" IsAxialSurface="false">
+      <geo:Shape3DOfSection FileName="sBB.sec"/>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="96" Green="47" Red="175"/>
+        <geo:ColorWireFrame Blue="0" Green="255" Red="255"/>
+      </geo:Graphic>
+      <geo:Intersections>
+        <geo:Curve Degree="1" Name="TopoMap">
+          <geo:Pole-Weight U="49820.42335" V="577.65124" Weight="1"/>
+          <geo:Pole-Weight U="47124.72910" V="597.54259" Weight="1"/>
+          <geo:Pole-Weight U="44129.51327" V="651.90913" Weight="1"/>
+          <geo:Pole-Weight U="41034.45691" V="671.82396" Weight="1"/>
+          <geo:Pole-Weight U="40235.73269" V="669.80430" Weight="1"/>
+          <geo:Pole-Weight U="39137.48688" V="689.90700" Weight="1"/>
+          <geo:Pole-Weight U="35842.74947" V="663.79227" Weight="1"/>
+          <geo:Pole-Weight U="35143.86577" V="647.56451" Weight="1"/>
+          <geo:Pole-Weight U="33945.77944" V="645.02818" Weight="1"/>
+          <geo:Pole-Weight U="33147.05522" V="651.88565" Weight="1"/>
+          <geo:Pole-Weight U="31948.96888" V="640.82446" Weight="1"/>
+          <geo:Pole-Weight U="30451.36097" V="610.01284" Weight="1"/>
+          <geo:Pole-Weight U="26657.42091" V="607.92272" Weight="1"/>
+          <geo:Pole-Weight U="21964.91611" V="480.26115" Weight="1"/>
+          <geo:Pole-Weight U="19668.58397" V="442.16934" Weight="1"/>
+          <geo:Pole-Weight U="16573.52761" V="474.85972" Weight="1"/>
+          <geo:Pole-Weight U="12879.42808" V="402.03438" Weight="1"/>
+          <geo:Pole-Weight U="11281.97964" V="393.60346" Weight="1"/>
+          <geo:Pole-Weight U="9185.32855" V="323.05611" Weight="1"/>
+          <geo:Pole-Weight U="7787.56117" V="292.03313" Weight="1"/>
+          <geo:Pole-Weight U="3294.73742" V="354.26697" Weight="1"/>
+          <geo:Pole-Weight U="2196.49161" V="388.60127" Weight="1"/>
+          <geo:Pole-Weight U="1896.97003" V="391.60728" Weight="1"/>
+          <geo:Pole-Weight U="1098.24581" V="384.18619" Weight="1"/>
+          <geo:Pole-Weight U="299.52158" V="368.31069" Weight="1"/>
+          <geo:Pole-Weight U="99.84053" V="366.99556" Weight="1"/>
+          <geo:Pole-Weight U="0" V="367.37131" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="2" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="3" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="4" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="5" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="6" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="7" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="8" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="9" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="10" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="11" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="12" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="13" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="14" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="15" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="16" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="17" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="18" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="19" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="20" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="21" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="22" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="23" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="24" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="25" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="26" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sRL0">
+          <geo:Pole-Weight U="49820.42335" V="0.00376" Weight="1"/>
+          <geo:Pole-Weight U="0" V="0.00376" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sRL-3000">
+          <geo:Pole-Weight U="49820.42335" V="-2999.99624" Weight="1"/>
+          <geo:Pole-Weight U="0" V="-2999.99624" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sRL-7000">
+          <geo:Pole-Weight U="49820.42335" V="-7000.01190" Weight="1"/>
+          <geo:Pole-Weight U="0" V="-7000.01190" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sRL-9000">
+          <geo:Pole-Weight U="49820.42335" V="-8999.99624" Weight="1"/>
+          <geo:Pole-Weight U="0" V="-8999.99624" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sRL-1000">
+          <geo:Pole-Weight U="49820.42335" V="-999.98841" Weight="1"/>
+          <geo:Pole-Weight U="0" V="-999.98841" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sRL-2000">
+          <geo:Pole-Weight U="49820.42335" V="-2000.00407" Weight="1"/>
+          <geo:Pole-Weight U="0" V="-2000.00407" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sAA">
+          <geo:Pole-Weight U="30556.14642" V="1999.99985" Weight="1"/>
+          <geo:Pole-Weight U="30556.14642" V="-10000.00015" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="-1999.99974430195698005263693630695343017578125" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="10000.0002556980398367159068584442138671875" Multiplicity="2"/>
+        </geo:Curve>
+      </geo:Intersections>
+    </geo:Section>
+    <geo:Section Name="sCC" IsAxialSurface="false">
+      <geo:Shape3DOfSection FileName="sCC.sec"/>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="0" Green="255" Red="255"/>
+        <geo:ColorWireFrame Blue="0" Green="255" Red="255"/>
+      </geo:Graphic>
+      <geo:Intersections>
+        <geo:Curve Degree="1" Name="TopoMap">
+          <geo:Pole-Weight U="41083.03349" V="697.53942" Weight="1"/>
+          <geo:Pole-Weight U="40095.06475" V="685.89112" Weight="1"/>
+          <geo:Pole-Weight U="39930.40329" V="681.24119" Weight="1"/>
+          <geo:Pole-Weight U="39683.41111" V="669.42851" Weight="1"/>
+          <geo:Pole-Weight U="38037.47995" V="509.01784" Weight="1"/>
+          <geo:Pole-Weight U="37872.13508" V="496.70024" Weight="1"/>
+          <geo:Pole-Weight U="37707.47363" V="486.97767" Weight="1"/>
+          <geo:Pole-Weight U="37460.48144" V="476.97328" Weight="1"/>
+          <geo:Pole-Weight U="37295.81998" V="473.19228" Weight="1"/>
+          <geo:Pole-Weight U="37131.15853" V="471.47792" Weight="1"/>
+          <geo:Pole-Weight U="36637.17416" V="476.83238" Weight="1"/>
+          <geo:Pole-Weight U="35484.54396" V="514.21965" Weight="1"/>
+          <geo:Pole-Weight U="34908.22886" V="540.14651" Weight="1"/>
+          <geo:Pole-Weight U="34084.92158" V="588.00785" Weight="1"/>
+          <geo:Pole-Weight U="29474.40078" V="639.88504" Weight="1"/>
+          <geo:Pole-Weight U="28815.75496" V="635.72829" Weight="1"/>
+          <geo:Pole-Weight U="27580.79403" V="609.63705" Weight="1"/>
+          <geo:Pole-Weight U="25275.53363" V="526.92475" Weight="1"/>
+          <geo:Pole-Weight U="22723.28105" V="494.77451" Weight="1"/>
+          <geo:Pole-Weight U="20912.00502" V="449.47297" Weight="1"/>
+          <geo:Pole-Weight U="18112.76026" V="491.18139" Weight="1"/>
+          <geo:Pole-Weight U="13584.57019" V="373.26587" Weight="1"/>
+          <geo:Pole-Weight U="8397.73430" V="327.58858" Weight="1"/>
+          <geo:Pole-Weight U="7762.36459" V="316.63307" Weight="1"/>
+          <geo:Pole-Weight U="7162.77337" V="297.78679" Weight="1"/>
+          <geo:Pole-Weight U="6339.46609" V="261.45631" Weight="1"/>
+          <geo:Pole-Weight U="3869.54424" V="301.63824" Weight="1"/>
+          <geo:Pole-Weight U="3227.58164" V="316.63307" Weight="1"/>
+          <geo:Pole-Weight U="2305.26040" V="352.99877" Weight="1"/>
+          <geo:Pole-Weight U="658.64583" V="318.94629" Weight="1"/>
+          <geo:Pole-Weight U="493.98437" V="317.93646" Weight="1"/>
+          <geo:Pole-Weight U="411.65364" V="318.68796" Weight="1"/>
+          <geo:Pole-Weight U="329.32291" V="320.40233" Weight="1"/>
+          <geo:Pole-Weight U="246.99219" V="323.15001" Weight="1"/>
+          <geo:Pole-Weight U="164.66146" V="327.00147" Weight="1"/>
+          <geo:Pole-Weight U="82.33073" V="332.05063" Weight="1"/>
+          <geo:Pole-Weight U="0" V="338.34446" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="2" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="3" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="4" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="5" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="6" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="7" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="8" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="9" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="10" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="11" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="12" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="13" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="14" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="15" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="16" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="17" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="18" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="19" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="20" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="21" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="22" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="23" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="24" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="25" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="26" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="27" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="28" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="29" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="30" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="31" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="32" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="33" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="34" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="35" Multiplicity="1"/>
+          <geo:Knot-Multiplicity Knot="36" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sRL-1000">
+          <geo:Pole-Weight U="41083.03349" V="-999.98845" Weight="1"/>
+          <geo:Pole-Weight U="0" V="-999.98845" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sRL-2000">
+          <geo:Pole-Weight U="41083.03349" V="-2000.00411" Weight="1"/>
+          <geo:Pole-Weight U="0" V="-2000.00411" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sRL-3000">
+          <geo:Pole-Weight U="41083.03349" V="-2999.99628" Weight="1"/>
+          <geo:Pole-Weight U="0" V="-2999.99628" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sRL-7000">
+          <geo:Pole-Weight U="41083.03349" V="-7000.01194" Weight="1"/>
+          <geo:Pole-Weight U="0" V="-7000.01194" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sRL-9000">
+          <geo:Pole-Weight U="41083.03349" V="-8999.99628" Weight="1"/>
+          <geo:Pole-Weight U="0" V="-8999.99628" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sRL0">
+          <geo:Pole-Weight U="41083.03349" V="0.00372" Weight="1"/>
+          <geo:Pole-Weight U="0" V="0.00372" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sRL2000">
+          <geo:Pole-Weight U="41083.03349" V="1999.98806" Weight="1"/>
+          <geo:Pole-Weight U="0" V="1999.98806" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+      </geo:Intersections>
+    </geo:Section>
+    <geo:Section Name="sRL-1000" IsAxialSurface="false">
+      <geo:Structural2DData>
+        <geo:Interfaces>
+          <geo:Interface>
+            <geo:Data Name="MaficDyke"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">78555.258,125751.516 77340.352,127444.414 76364.445,128958.070 75368.625,130631.047 74460.156,132261.031 73568.125,134045.094 72679.898,136068.25 </gml:coordinates>
+            </gml:LineString>
+            <geo:AssociatedFoliationType Azimuth="0.0" Dip="85.0" LineAzimuth="0.0" LineDip="0.0" Method="0" NormalPolarity="true"/>
+          </geo:Interface>
+          <geo:Interface>
+            <geo:Data Name="MaficDyke"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">72122.234,135769.5 72938.813,133777.844 73835.055,132005.281 74791.047,130312.383 75846.617,128599.570 76862.359,127066 78037.430,125412.938 </gml:coordinates>
+            </gml:LineString>
+            <geo:AssociatedFoliationType Azimuth="0.0" Dip="85.0" LineAzimuth="0.0" LineDip="0.0" Method="0" NormalPolarity="true"/>
+          </geo:Interface>
+        </geo:Interfaces>
+      </geo:Structural2DData>
+      <geo:Shape3DOfSection FileName="sRL-1000.sec"/>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="0" Green="140" Red="255"/>
+        <geo:ColorWireFrame Blue="0" Green="255" Red="255"/>
+      </geo:Graphic>
+      <geo:Intersections>
+        <geo:Curve Degree="1" Name="s100000N">
+          <geo:Pole-Weight U="90000" V="100000" Weight="1"/>
+          <geo:Pole-Weight U="50000" V="100000" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sBB">
+          <geo:Pole-Weight U="89523.39654" V="139005.27315" Weight="1"/>
+          <geo:Pole-Weight U="50264.36719" V="108332.75781" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sAA">
+          <geo:Pole-Weight U="90000" V="127145" Weight="1"/>
+          <geo:Pole-Weight U="50000" V="127145" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sCC">
+          <geo:Pole-Weight U="90000" V="113587" Weight="1"/>
+          <geo:Pole-Weight U="50000" V="104216" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+      </geo:Intersections>
+    </geo:Section>
+    <geo:Section Name="sRL-2000" IsAxialSurface="false">
+      <geo:Structural2DData>
+        <geo:Interfaces>
+          <geo:Interface>
+            <geo:Data Name="MaficDyke"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">78555.258,125751.516 77340.352,127444.414 76364.445,128958.070 75368.625,130631.047 74460.156,132261.031 73568.125,134045.094 72679.898,136068.25 </gml:coordinates>
+            </gml:LineString>
+            <geo:AssociatedFoliationType Azimuth="0.0" Dip="85.0" LineAzimuth="0.0" LineDip="0.0" Method="0" NormalPolarity="true"/>
+          </geo:Interface>
+          <geo:Interface>
+            <geo:Data Name="MaficDyke"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">72122.234,135769.5 72938.813,133777.844 73835.055,132005.281 74791.047,130312.383 75846.617,128599.570 76862.359,127066 78037.430,125412.938 </gml:coordinates>
+            </gml:LineString>
+            <geo:AssociatedFoliationType Azimuth="0.0" Dip="85.0" LineAzimuth="0.0" LineDip="0.0" Method="0" NormalPolarity="true"/>
+          </geo:Interface>
+        </geo:Interfaces>
+      </geo:Structural2DData>
+      <geo:Shape3DOfSection FileName="sRL-2000.sec"/>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="225" Green="105" Red="65"/>
+        <geo:ColorWireFrame Blue="0" Green="255" Red="255"/>
+      </geo:Graphic>
+      <geo:Intersections>
+        <geo:Curve Degree="1" Name="s100000N">
+          <geo:Pole-Weight U="90000" V="100000" Weight="1"/>
+          <geo:Pole-Weight U="50000" V="100000" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sBB">
+          <geo:Pole-Weight U="89523.39654" V="139005.27315" Weight="1"/>
+          <geo:Pole-Weight U="50264.36719" V="108332.75781" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sAA">
+          <geo:Pole-Weight U="90000" V="127145" Weight="1"/>
+          <geo:Pole-Weight U="50000" V="127145" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sCC">
+          <geo:Pole-Weight U="90000" V="113587" Weight="1"/>
+          <geo:Pole-Weight U="50000" V="104216" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+      </geo:Intersections>
+    </geo:Section>
+    <geo:Section Name="sRL-3000" IsAxialSurface="false">
+      <geo:Structural2DData>
+        <geo:Interfaces>
+          <geo:Interface>
+            <geo:Data Name="MaficDyke"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">78555.258,125751.516 77340.352,127444.414 76364.445,128958.070 75368.625,130631.047 74460.156,132261.031 73568.125,134045.094 72679.898,136068.25 </gml:coordinates>
+            </gml:LineString>
+            <geo:AssociatedFoliationType Azimuth="0.0" Dip="85.0" LineAzimuth="0.0" LineDip="0.0" Method="0" NormalPolarity="true"/>
+          </geo:Interface>
+          <geo:Interface>
+            <geo:Data Name="MaficDyke"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">72122.234,135769.5 72938.813,133777.844 73835.055,132005.281 74791.047,130312.383 75846.617,128599.570 76862.359,127066 78037.430,125412.938 </gml:coordinates>
+            </gml:LineString>
+            <geo:AssociatedFoliationType Azimuth="0.0" Dip="85.0" LineAzimuth="0.0" LineDip="0.0" Method="0" NormalPolarity="true"/>
+          </geo:Interface>
+          <geo:Interface Provenance="2">
+            <geo:Data Name="LateGranite3"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">78826.992,114873.664 78439.141,112837.422 78972.438,111819.297 80281.453,112449.563 80960.203,113855.539 81638.945,115649.375 81202.609,116764.461 80039.047,116764.461 79069.406,115213.039 </gml:coordinates>
+            </gml:LineString>
+            <geo:AssociatedFoliationType Azimuth="0.0" Dip="80.0" LineAzimuth="0.0" LineDip="0.0" Method="0" NormalPolarity="true"/>
+          </geo:Interface>
+          <geo:Interface Provenance="2">
+            <geo:Data Name="LateGranite2"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">78779.523,126948.672 77325.063,124185.195 77373.547,120015.742 78246.219,117446.195 80476.391,115555.398 83336.828,114585.758 84985.219,115506.914 86100.305,119143.063 85712.445,122051.984 84064.063,124476.086 81349.070,127288.039 79021.930,127142.594 </gml:coordinates>
+            </gml:LineString>
+            <geo:AssociatedFoliationType Azimuth="0.0" Dip="80.0" LineAzimuth="0.0" LineDip="0.0" Method="0" NormalPolarity="true"/>
+          </geo:Interface>
+        </geo:Interfaces>
+      </geo:Structural2DData>
+      <geo:Shape3DOfSection FileName="sRL-3000.sec"/>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="0" Green="100" Red="0"/>
+        <geo:ColorWireFrame Blue="0" Green="255" Red="255"/>
+      </geo:Graphic>
+      <geo:Intersections>
+        <geo:Curve Degree="1" Name="s100000N">
+          <geo:Pole-Weight U="90000" V="100000" Weight="1"/>
+          <geo:Pole-Weight U="50000" V="100000" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sBB">
+          <geo:Pole-Weight U="89523.39654" V="139005.27315" Weight="1"/>
+          <geo:Pole-Weight U="50264.36719" V="108332.75781" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sAA">
+          <geo:Pole-Weight U="90000" V="127145" Weight="1"/>
+          <geo:Pole-Weight U="50000" V="127145" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sCC">
+          <geo:Pole-Weight U="90000" V="113587" Weight="1"/>
+          <geo:Pole-Weight U="50000" V="104216" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+      </geo:Intersections>
+    </geo:Section>
+    <geo:Section Name="sRL-7000" IsAxialSurface="false">
+      <geo:Structural2DData>
+        <geo:Interfaces>
+          <geo:Interface Provenance="2">
+            <geo:Data Name="LateGranite3"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">79460.383,114658.992 79377.633,113886.633 79598.313,113334.945 80177.586,113610.789 80536.180,114217.648 80922.359,115072.766 80756.852,115927.883 80122.414,115789.961 79681.063,115017.594 </gml:coordinates>
+            </gml:LineString>
+            <geo:AssociatedFoliationType Azimuth="0.0" Dip="0.0" LineAzimuth="0.0" LineDip="0.0" Method="3" NormalPolarity="true"/>
+          </geo:Interface>
+          <geo:Interface Provenance="2">
+            <geo:Data Name="LateGranite2"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">80230.305,123446.797 80323.242,120588.914 80834.406,118939.242 81601.156,117800.734 82577.016,117893.680 83227.586,118288.664 83274.063,119055.414 83436.703,121471.836 82414.375,123284.148 81159.695,124143.836 80462.648,123934.727 80300.008,123562.969 </gml:coordinates>
+            </gml:LineString>
+            <geo:AssociatedFoliationType Azimuth="0.0" Dip="80.0" LineAzimuth="0.0" LineDip="0.0" Method="0" NormalPolarity="true"/>
+          </geo:Interface>
+        </geo:Interfaces>
+      </geo:Structural2DData>
+      <geo:Shape3DOfSection FileName="sRL-7000.sec"/>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="202" Green="191" Red="255"/>
+        <geo:ColorWireFrame Blue="0" Green="255" Red="255"/>
+      </geo:Graphic>
+      <geo:Intersections>
+        <geo:Curve Degree="1" Name="s100000N">
+          <geo:Pole-Weight U="90000" V="100000" Weight="1"/>
+          <geo:Pole-Weight U="50000" V="100000" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sBB">
+          <geo:Pole-Weight U="89523.39654" V="139005.27315" Weight="1"/>
+          <geo:Pole-Weight U="50264.36719" V="108332.75781" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sAA">
+          <geo:Pole-Weight U="90000" V="127145" Weight="1"/>
+          <geo:Pole-Weight U="50000" V="127145" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sCC">
+          <geo:Pole-Weight U="90000" V="113587" Weight="1"/>
+          <geo:Pole-Weight U="50000" V="104216" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+      </geo:Intersections>
+    </geo:Section>
+    <geo:Section Name="sRL-9000" IsAxialSurface="false">
+      <geo:Structural2DData>
+        <geo:Interfaces>
+          <geo:Interface Provenance="2">
+            <geo:Data Name="Granite"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">79403.945,121671.477 77541.781,118040.25 80241.922,109567.383 83128.281,108263.867 86666.398,108170.758 </gml:coordinates>
+            </gml:LineString>
+            <geo:AssociatedFoliationType Azimuth="0.0" Dip="80.0" LineAzimuth="0.0" LineDip="0.0" Method="0" NormalPolarity="true"/>
+          </geo:Interface>
+          <geo:Interface Provenance="2">
+            <geo:Data Name="Granite"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">89645.867,109288.055 </gml:coordinates>
+            </gml:LineString>
+          </geo:Interface>
+        </geo:Interfaces>
+      </geo:Structural2DData>
+      <geo:Shape3DOfSection FileName="sRL-9000.sec"/>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="191" Green="0" Red="0"/>
+        <geo:ColorWireFrame Blue="0" Green="255" Red="255"/>
+      </geo:Graphic>
+      <geo:Intersections>
+        <geo:Curve Degree="1" Name="s100000N">
+          <geo:Pole-Weight U="90000" V="100000" Weight="1"/>
+          <geo:Pole-Weight U="50000" V="100000" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sBB">
+          <geo:Pole-Weight U="89523.39654" V="139005.27315" Weight="1"/>
+          <geo:Pole-Weight U="50264.36719" V="108332.75781" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sAA">
+          <geo:Pole-Weight U="90000" V="127145" Weight="1"/>
+          <geo:Pole-Weight U="50000" V="127145" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sCC">
+          <geo:Pole-Weight U="90000" V="113587" Weight="1"/>
+          <geo:Pole-Weight U="50000" V="104216" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+      </geo:Intersections>
+    </geo:Section>
+    <geo:Section Name="sRL0" IsAxialSurface="false">
+      <geo:Structural2DData>
+        <geo:Interfaces>
+          <geo:Interface Provenance="1">
+            <geo:Data Name="Cover"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">67736.211,105309.891 66110.922,102291.5 65994.828,101014.492 68490.805,100550.117 72844.258,100492.078 76210.922,100724.258 </gml:coordinates>
+            </gml:LineString>
+            <geo:AssociatedFoliationType Azimuth="0.0" Dip="0.1" LineAzimuth="0.0" LineDip="0.0" Method="0" NormalPolarity="true"/>
+          </geo:Interface>
+          <geo:Interface Provenance="2">
+            <geo:Data Name="Cover"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">61118.965,138168.391 66749.430,137878.156 61293.105,135208.047 66691.383,132944.25 61060.918,129867.820 64543.680,127429.891 61873.563,125978.734 63847.125,123714.945 61351.148,121973.563 65356.324,120928.734 63789.082,118316.664 68026.438,117271.836 66807.469,114253.453 70754.594,116343.102 72031.609,114079.313 69187.359,111409.195 67213.797,108332.758 71393.102,107926.438 69071.266,103747.125 70812.641,101715.516 76849.422,102295.977 75804.602,104966.094 73540.805,105604.602 </gml:coordinates>
+            </gml:LineString>
+            <geo:AssociatedFoliationType Azimuth="0.0" Dip="0.1" LineAzimuth="0.0" LineDip="0.0" Method="0" NormalPolarity="true"/>
+          </geo:Interface>
+        </geo:Interfaces>
+      </geo:Structural2DData>
+      <geo:Shape3DOfSection FileName="sRL0.sec"/>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="126" Green="126" Red="126"/>
+        <geo:ColorWireFrame Blue="0" Green="255" Red="255"/>
+      </geo:Graphic>
+      <geo:Intersections>
+        <geo:Curve Degree="1" Name="sBB">
+          <geo:Pole-Weight U="89523.39654" V="139005.27315" Weight="1"/>
+          <geo:Pole-Weight U="50264.36719" V="108332.75781" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="s100000N">
+          <geo:Pole-Weight U="90000" V="100000" Weight="1"/>
+          <geo:Pole-Weight U="50000" V="100000" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sAA">
+          <geo:Pole-Weight U="90000" V="127145" Weight="1"/>
+          <geo:Pole-Weight U="50000" V="127145" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sCC">
+          <geo:Pole-Weight U="90000" V="113587" Weight="1"/>
+          <geo:Pole-Weight U="50000" V="104216" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+      </geo:Intersections>
+    </geo:Section>
+    <geo:Section Name="sRL2000" IsAxialSurface="false">
+      <geo:Structural2DData>
+        <geo:Interfaces>
+          <geo:Interface Provenance="4">
+            <geo:Data Name="Cover"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">80622.414,137820.109 79055.172,132131.609 86310.922,129287.359 87413.789,137239.656 </gml:coordinates>
+            </gml:LineString>
+            <geo:AssociatedFoliationType Azimuth="0.0" Dip="0.1" LineAzimuth="0.0" LineDip="0.0" Method="0" NormalPolarity="true"/>
+          </geo:Interface>
+          <geo:Interface Provenance="4">
+            <geo:Data Name="Cover"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">88400.578,125224.141 86194.828,120870.688 89445.406,116517.242 </gml:coordinates>
+            </gml:LineString>
+            <geo:AssociatedFoliationType Azimuth="0.0" Dip="0.1" LineAzimuth="0.0" LineDip="0.0" Method="0" NormalPolarity="true"/>
+          </geo:Interface>
+          <geo:Interface Provenance="4">
+            <geo:Data Name="Cover"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">89329.313,103921.266 84975.859,100670.688 </gml:coordinates>
+            </gml:LineString>
+            <geo:AssociatedFoliationType Azimuth="0.0" Dip="0.1" LineAzimuth="0.0" LineDip="0.0" Method="0" NormalPolarity="true"/>
+          </geo:Interface>
+          <geo:Interface>
+            <geo:Data Name="Proterozoic"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">89459.656,139548.281 </gml:coordinates>
+            </gml:LineString>
+          </geo:Interface>
+          <geo:Interface>
+            <geo:Data Name="LPalaeozoic"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">89832.086,139920.719 </gml:coordinates>
+            </gml:LineString>
+          </geo:Interface>
+          <geo:Interface>
+            <geo:Data Name="Miocene"/>
+            <gml:LineString>
+              <gml:coordinates cs="," decimal="." ts=" ">89953.5,139975.219 </gml:coordinates>
+            </gml:LineString>
+          </geo:Interface>
+        </geo:Interfaces>
+      </geo:Structural2DData>
+      <geo:Shape3DOfSection FileName="sRL2000.sec"/>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="86" Green="138" Red="45"/>
+        <geo:ColorWireFrame Blue="0" Green="255" Red="255"/>
+      </geo:Graphic>
+      <geo:Intersections>
+        <geo:Curve Degree="1" Name="s100000N">
+          <geo:Pole-Weight U="90000" V="100000" Weight="1"/>
+          <geo:Pole-Weight U="50000" V="100000" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sAA">
+          <geo:Pole-Weight U="90000" V="127145" Weight="1"/>
+          <geo:Pole-Weight U="50000" V="127145" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+        <geo:Curve Degree="1" Name="sCC">
+          <geo:Pole-Weight U="90000" V="113587" Weight="1"/>
+          <geo:Pole-Weight U="50000" V="104216" Weight="1"/>
+          <geo:Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <geo:Knot-Multiplicity Knot="1" Multiplicity="2"/>
+        </geo:Curve>
+      </geo:Intersections>
+    </geo:Section>
+  </geo:Sections>
+  <geo:DrillHoles>
+    <geo:Graphic radius="289.1366458960192"/>
+    <geo:DrillholeWithFields Name="HRW1" TotalDepth="2800.0">
+      <geo:Collar>
+        <gml:coord>
+          <gml:X>53575.0</gml:X>
+          <gml:Y>127145.0</gml:Y>
+          <gml:Z>358.0</gml:Z>
+        </gml:coord>
+      </geo:Collar>
+      <geo:Survey>
+        <gml:coordinates cs="," decimal="." ts=" ">0,0,0 0,0,-2800 </gml:coordinates>
+      </geo:Survey>
+      <geo:SurveyInfo/>
+      <geo:DrillholeFields>
+        <geo:DrillholeField DatatypeDH="String" Description="Geological log" GeometryDH="Discontinuous" Name="Geology" NoValue="-99999" Unit="">
+          <geo:DiscontinueTriplets decimal="." tuplet_separator=";" value_separator=",">0,129.900,LPalaeozoic;129.900,2771.200,Proterozoic;2771.200,2800,Basement;</geo:DiscontinueTriplets>
+          <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+            <geo:ColorShading Blue="96" Green="47" Red="175"/>
+            <geo:ColorWireFrame Blue="0" Green="255" Red="255"/>
+          </geo:Graphic>
+        </geo:DrillholeField>
+      </geo:DrillholeFields>
+      <geo:UserDefinedGeology/>
+    </geo:DrillholeWithFields>
+    <geo:DrillholeWithFields Name="HRW2" TotalDepth="3200.0">
+      <geo:Collar>
+        <gml:coord>
+          <gml:X>56616.0</gml:X>
+          <gml:Y>105766.0</gml:Y>
+          <gml:Z>284.5</gml:Z>
+        </gml:coord>
+      </geo:Collar>
+      <geo:Survey>
+        <gml:coordinates cs="," decimal="." ts=" ">0,0,0 0,0,-3200 </gml:coordinates>
+      </geo:Survey>
+      <geo:SurveyInfo/>
+      <geo:DrillholeFields>
+        <geo:DrillholeField DatatypeDH="String" Description="Geological log" GeometryDH="Discontinuous" Name="Geology" NoValue="-99999" Unit="">
+          <geo:DiscontinueTriplets decimal="." tuplet_separator=";" value_separator=",">0,436.400,LPalaeozoic;436.400,3171.600,Proterozoic;3171.600,3200,Basement;</geo:DiscontinueTriplets>
+          <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+            <geo:ColorShading Blue="202" Green="191" Red="255"/>
+            <geo:ColorWireFrame Blue="0" Green="255" Red="255"/>
+          </geo:Graphic>
+        </geo:DrillholeField>
+      </geo:DrillholeFields>
+      <geo:UserDefinedGeology/>
+    </geo:DrillholeWithFields>
+  </geo:DrillHoles>
+  <geo:GeologicalModel Inequalities="false" MinimumDykeThickness="2.0" SimplificationRadius="10.0">
+    <geo:Extent3D>
+      <geo:ExtentXY Xmax="90000.0" Xmin="50000.0" Ymax="140000.0" Ymin="100000.0"/>
+      <geo:ExtentZ Zmax="2000.0" Zmin="-10000.0"/>
+    </geo:Extent3D>
+    <geo:ProjectStratigraphicColumn IsBase="true">
+      <geo:Series isUptodate="false" name="Basement" relation="1">
+        <geo:Data Name="Basement"/>
+        <geo:InfluencedByFault Name="RangeFront"/>
+      </geo:Series>
+      <geo:Series isUptodate="false" name="Granite" relation="2">
+        <geo:Data Name="Granite"/>
+        <geo:InfluencedByFault Name="RangeFront"/>
+      </geo:Series>
+      <geo:Series isUptodate="false" name="ProterozoicUC" relation="2">
+        <geo:Data Name="Proterozoic"/>
+        <geo:InfluencedByFault Name="RangeFront"/>
+      </geo:Series>
+      <geo:Series isUptodate="false" name="Basin" relation="1">
+        <geo:Data Name="LPalaeozoic"/>
+        <geo:Data Name="PalaeoMarker"/>
+        <geo:Data Name="UPalaeozoic"/>
+        <geo:Data Name="Mesozoic"/>
+        <geo:InfluencedByFault Name="RangeFront"/>
+      </geo:Series>
+      <geo:Series isUptodate="false" name="Basin_Miocene" relation="1">
+        <geo:Data Name="Miocene"/>
+        <geo:InfluencedByFault Name="RangeFront"/>
+      </geo:Series>
+      <geo:Series isUptodate="false" name="MaficDyke" relation="2">
+        <geo:Data Name="MaficDyke"/>
+      </geo:Series>
+      <geo:Series isUptodate="false" name="LateGranite1" relation="2">
+        <geo:Data Name="LateGranite1"/>
+      </geo:Series>
+      <geo:Series isUptodate="false" name="LateGranite2" relation="2">
+        <geo:Data Name="LateGranite2"/>
+      </geo:Series>
+      <geo:Series isUptodate="false" name="LateGranite3" relation="2">
+        <geo:Data Name="LateGranite3"/>
+      </geo:Series>
+      <geo:Series isUptodate="false" name="Cover" relation="2">
+        <geo:Data Name="Cover"/>
+      </geo:Series>
+    </geo:ProjectStratigraphicColumn>
+    <geo:ModelStratigraphicColumn/>
+  </geo:GeologicalModel>
+  <geo:ProvenanceGroup>
+    <geo:Provenance id="Unspecified" rank="0"/>
+    <geo:Provenance id="Observed" rank="1"/>
+    <geo:Provenance id="Inferred" rank="2"/>
+    <geo:Provenance id="Interpreted" rank="3"/>
+    <geo:Provenance id="ModelConstructor" rank="4"/>
+  </geo:ProvenanceGroup>
+  <geo:GeophysicalReferenceType AmbientMagneticDeclination="0.0" AmbientMagneticInclination="90.0" AmbientMagneticMagnitude="50000.0" DensityRef="2.67"/>
+</geo:Project3DEdit>

@@ -1,0 +1,39 @@
+MetaData Begin
+	Name	= Microseismic_Database_Monitoring..DIR
+	Version	= "Intrepid GeoModeller v6.0.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build edab304f433b+ "
+	X Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+	X End
+	Y Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+	Y End
+	Z Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+	Z End
+	Event-ID# Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+	Event-ID# End
+	date Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Alias	= DateTime
+	date End
+	hour Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+	hour End
+	Flowrate Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Alias	= FlowRate
+	Flowrate End
+	Pressure Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Alias	= Pressure
+	Pressure End
+MetaData End

@@ -1,0 +1,124 @@
+Warning: Case Case1 already exists 
+outputModelName= D:/NewTutorial_2014/Tutorial_D/Tutorial_D8/D8Beginning_Project/D8Beginning_Project.xml
+Products/Case Thermal
+Surface Temperature  log-normal(20.000000,0,100)
+Base Heat Flow  log-normal(0.030000,0,100)
+Set BoundaryConditions
+Cover Log-normal(2,0.1,100) Log-normal(1e-006,1e-007,100)
+LateGranite3 Log-normal(3,0.1,100) Log-normal(1e-006,1e-007,100)
+LateGranite2 Log-normal(3,0.1,100) Log-normal(1e-006,1e-007,100)
+LateGranite1 Log-normal(3,0.1,100) Log-normal(1e-006,1e-007,100)
+MaficDyke Log-normal(3,0.1,100) Log-normal(1e-006,1e-007,100)
+Miocene Log-normal(2,0.1,100) Log-normal(1e-006,1e-007,100)
+Mesozoic Log-normal(2,0.1,100) Log-normal(1e-006,1e-007,100)
+UPalaeozoic Log-normal(1.5,0.1,100) Log-normal(1e-006,1e-007,100)
+PalaeoMarker Log-normal(2,0.1,100) Log-normal(1e-006,1e-007,100)
+LPalaeozoic Log-normal(2,0.1,100) Log-normal(1e-006,1e-007,100)
+Proterozoic Log-normal(2,0.1,100) Log-normal(1e-006,1e-007,100)
+Granite Log-normal(3,0.1,100) Log-normal(1.5e-005,1e-007,100)
+Basement Log-normal(3,0.1,100) Log-normal(1e-006,1e-007,100)
+Temperature at surface Normal(20,0,100)
+Heatflow at base Normal(0.03,0,100)
+Unconstrained Heatflow and Temperature at base
+Iterations=20000 max_residual=0.000100
+Geometry size=20 20 10 cellsize=2000.000000 2000.000000 1200.000000
+Non Advective Case
+Iteration 0 residual=3.408130 at layer 1 Base=114.757637 Mid=78.209302 Surf=20.000000
+	Depth = 1400.000000 T = 20.000000
+	Depth = 200.000000 T = 20.000000
+	Depth = -1000.000000 T = 30.358595
+	Depth = -2200.000000 T = 42.279070
+	Depth = -3400.000000 T = 54.820702
+	Depth = -4600.000000 T = 66.669683
+	Depth = -5800.000000 T = 78.209302
+	Depth = -7000.000000 T = 91.008130
+	Depth = -8200.000000 T = 102.757637
+	Depth = -9400.000000 T = 114.757637
+Iteration 100 residual=0.340728 at layer 1 Base=159.346446 Mid=117.676343 Surf=20.000000
+	Depth = 1400.000000 T = 20.000000
+	Depth = 200.000000 T = 20.000000
+	Depth = -1000.000000 T = 40.116818
+	Depth = -2200.000000 T = 62.223465
+	Depth = -3400.000000 T = 83.641452
+	Depth = -4600.000000 T = 101.737138
+	Depth = -5800.000000 T = 117.676343
+	Depth = -7000.000000 T = 133.902906
+	Depth = -8200.000000 T = 147.346446
+	Depth = -9400.000000 T = 159.346446
+Iteration 200 residual=0.098698 at layer 1 Base=174.517902 Mid=131.057592 Surf=20.000000
+	Depth = 1400.000000 T = 20.000000
+	Depth = 200.000000 T = 20.000000
+	Depth = -1000.000000 T = 43.119157
+	Depth = -2200.000000 T = 68.529391
+	Depth = -3400.000000 T = 93.013120
+	Depth = -4600.000000 T = 113.448049
+	Depth = -5800.000000 T = 131.057592
+	Depth = -7000.000000 T = 148.508328
+	Depth = -8200.000000 T = 162.517902
+	Depth = -9400.000000 T = 174.517902
+Iteration 300 residual=0.032115 at layer 1 Base=179.787995 Mid=135.708008 Surf=20.000000
+	Depth = 1400.000000 T = 20.000000
+	Depth = 200.000000 T = 20.000000
+	Depth = -1000.000000 T = 44.163156
+	Depth = -2200.000000 T = 70.722304
+	Depth = -3400.000000 T = 96.271663
+	Depth = -4600.000000 T = 117.519005
+	Depth = -5800.000000 T = 135.708008
+	Depth = -7000.000000 T = 153.582962
+	Depth = -8200.000000 T = 167.787995
+	Depth = -9400.000000 T = 179.787995
+Iteration 400 residual=0.011022 at layer 1 Base=181.627874 Mid=137.332076 Surf=20.000000
+	Depth = 1400.000000 T = 20.000000
+	Depth = 200.000000 T = 20.000000
+	Depth = -1000.000000 T = 44.527905
+	Depth = -2200.000000 T = 71.488488
+	Depth = -3400.000000 T = 97.410038
+	Depth = -4600.000000 T = 118.940966
+	Depth = -5800.000000 T = 137.332076
+	Depth = -7000.000000 T = 155.354876
+	Depth = -8200.000000 T = 169.627874
+	Depth = -9400.000000 T = 181.627874
+Iteration 500 residual=0.004041 at layer 1 Base=182.274129 Mid=137.902656 Surf=20.000000
+	Depth = 1400.000000 T = 20.000000
+	Depth = 200.000000 T = 20.000000
+	Depth = -1000.000000 T = 44.656088
+	Depth = -2200.000000 T = 71.757754
+	Depth = -3400.000000 T = 97.810074
+	Depth = -4600.000000 T = 119.440602
+	Depth = -5800.000000 T = 137.902656
+	Depth = -7000.000000 T = 155.977325
+	Depth = -8200.000000 T = 170.274129
+	Depth = -9400.000000 T = 182.274129
+Iteration 600 residual=0.001471 at layer 1 Base=182.502119 Mid=138.103979 Surf=20.000000
+	Depth = 1400.000000 T = 20.000000
+	Depth = 200.000000 T = 20.000000
+	Depth = -1000.000000 T = 44.701325
+	Depth = -2200.000000 T = 71.852782
+	Depth = -3400.000000 T = 97.951244
+	Depth = -4600.000000 T = 119.616908
+	Depth = -5800.000000 T = 138.103979
+	Depth = -7000.000000 T = 156.196932
+	Depth = -8200.000000 T = 170.502119
+	Depth = -9400.000000 T = 182.502119
+Iteration 700 residual=0.000532 at layer 1 Base=182.582793 Mid=138.175224 Surf=20.000000
+	Depth = 1400.000000 T = 20.000000
+	Depth = 200.000000 T = 20.000000
+	Depth = -1000.000000 T = 44.717336
+	Depth = -2200.000000 T = 71.886416
+	Depth = -3400.000000 T = 98.001208
+	Depth = -4600.000000 T = 119.679303
+	Depth = -5800.000000 T = 138.175224
+	Depth = -7000.000000 T = 156.274644
+	Depth = -8200.000000 T = 170.582793
+	Depth = -9400.000000 T = 182.582793
+Iteration 800 residual=0.000191 at layer 1 Base=182.611398 Mid=138.200488 Surf=20.000000
+	Depth = 1400.000000 T = 20.000000
+	Depth = 200.000000 T = 20.000000
+	Depth = -1000.000000 T = 44.723014
+	Depth = -2200.000000 T = 71.898343
+	Depth = -3400.000000 T = 98.018926
+	Depth = -4600.000000 T = 119.701430
+	Depth = -5800.000000 T = 138.200488
+	Depth = -7000.000000 T = 156.302199
+	Depth = -8200.000000 T = 170.611398
+	Depth = -9400.000000 T = 182.611398

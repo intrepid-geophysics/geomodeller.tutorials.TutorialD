@@ -1,0 +1,94 @@
+MetaData Begin
+	Name	= Case1_Thermal_initial.igmesh
+	Version	= "Intrepid GeoModeller v3.3.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build 6190f4ee95d4+ "
+	voxet_Lithology Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Alias	= Lithology
+		Units	= "Lithology"
+	voxet_Lithology End
+	voxet_ThermalConductivity Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Alias	= ThermalConductivity
+		Units	= "W/m3"
+	voxet_ThermalConductivity End
+	voxet_HeatProductionRate Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Alias	= HeatProductionRate
+		Units	= "W/mK"
+	voxet_HeatProductionRate End
+	MeshGrid Begin
+		Type	= regular-grid
+		Dimensions	= 3
+		Purpose	= MODEL
+		Suffix	= .vo
+		Format	= iovoxet
+		Name	= Case1_Thermal_initial
+		Projection	= "NUTM54"
+		Datum	= "WGS84"
+		GridExtents = {
+			             20
+			             20
+			             10
+}
+		Origin = {
+			   51000.000000
+			  101000.000000
+			   -9400.000000
+}
+		Spacing = {
+			    2000.000000
+			    2000.000000
+			    1200.000000
+}
+		BasisX = {
+			       1.000000
+			              0
+			              0
+}
+		BasisY = {
+			              0
+			       1.000000
+			              0
+}
+		BasisZ = {
+			              0
+			              0
+			       1.000000
+}
+		FieldData Begin
+			Lithology Begin
+				Resource	= Case1_Thermal_initial.igmesh/Case1_Thermal_initial.vo
+				Name	= Lithology
+				Primitive	= voxet
+				DataType	= IEEE8ByteReal
+				Units	= Lithology
+				Alias	= Lithology
+				NumElem	= 4000
+			Lithology End
+			ThermalConductivity Begin
+				Resource	= Case1_Thermal_initial.igmesh/Case1_Thermal_initial.vo
+				Name	= ThermalConductivity
+				Primitive	= voxet
+				DataType	= IEEE8ByteReal
+				Units	= W/m3
+				Alias	= ThermalConductivity
+				NumElem	= 4000
+			ThermalConductivity End
+			HeatProductionRate Begin
+				Resource	= Case1_Thermal_initial.igmesh/Case1_Thermal_initial.vo
+				Name	= HeatProductionRate
+				Primitive	= voxet
+				DataType	= IEEE8ByteReal
+				Units	= W/mK
+				Alias	= HeatProductionRate
+				NumElem	= 4000
+			HeatProductionRate End
+		FieldData End
+	MeshGrid End
+MetaData End

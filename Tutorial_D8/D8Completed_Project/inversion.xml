@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inversion:ManageLithoInversionState xmlns:geo="http://www.geomodeller.com/geo" xmlns:inversion="http://www.geomodeller.com/inversion" Version="0">
+  <inversion:Case Name="Case1">
+    <inversion:Common>
+      <inversion:Extent3D Dx="2000" Dy="2000" Dz="1200">
+        <geo:ExtentXY Xmax="90000.0" Xmin="50000.0" Ymax="140000.0" Ymin="100000.0"/>
+        <geo:ExtentZ Zmax="2000.0" Zmin="-10000.0"/>
+        <inversion:VariableZResolution GeomFactor="1.0" LowerDz="1200.0" TopoPartBoundaryAt="2000.0" UseVarZ="false"/>
+      </inversion:Extent3D>
+      <inversion:GeophysicalReferences AboveTopoDensity="0.0" AmbientMagneticDeclination="0.0" AmbientMagneticInclination="90.0" AmbientMagneticMagnitude="50000.0" DensityRef="0.0"/>
+      <inversion:Formation FrontierMoveable="true" Index="13" Name="Cover">
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.01" LawType="Normal" Mean="2.2" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-6" LawType="Normal" Mean="1.0E-4" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.1" LawType="Log-normal" Mean="2.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-7" LawType="Log-normal" Mean="1.0E-6" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+        <inversion:GeologicalConstraints>
+          <inversion:ReferenceConstraint Deviation="1.0" LawType="Weibull" Mean="0.2" PercentageContribution="100" ConstraintName="Commonality"/>
+          <inversion:ReferenceConstraint Deviation="1.0" LawType="Normal" Mean="0.0" PercentageContribution="100" ConstraintName="CommonalityVolume"/>
+          <inversion:ReferenceConstraint Deviation="0.05" LawType="LogNormal" Mean="1.0" PercentageContribution="100" ConstraintName="VolumeRatio"/>
+          <inversion:ReferenceConstraint Deviation="0.05" LawType="LogNormal" Mean="1.0" PercentageContribution="100" ConstraintName="ShapeRatio"/>
+        </inversion:GeologicalConstraints>
+      </inversion:Formation>
+      <inversion:Formation FrontierMoveable="true" Index="12" Name="LateGranite3">
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="2.67" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.1" LawType="Log-normal" Mean="3.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-7" LawType="Log-normal" Mean="1.0E-6" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+        <inversion:GeologicalConstraints>
+          <inversion:ReferenceConstraint Deviation="1.0" LawType="Weibull" Mean="0.2" PercentageContribution="100" ConstraintName="Commonality"/>
+          <inversion:ReferenceConstraint Deviation="1.0" LawType="Normal" Mean="0.0" PercentageContribution="100" ConstraintName="CommonalityVolume"/>
+          <inversion:ReferenceConstraint Deviation="0.05" LawType="LogNormal" Mean="1.0" PercentageContribution="100" ConstraintName="VolumeRatio"/>
+          <inversion:ReferenceConstraint Deviation="0.05" LawType="LogNormal" Mean="1.0" PercentageContribution="100" ConstraintName="ShapeRatio"/>
+        </inversion:GeologicalConstraints>
+      </inversion:Formation>
+      <inversion:Formation FrontierMoveable="true" Index="11" Name="LateGranite2">
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="2.67" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.1" LawType="Log-normal" Mean="3.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-7" LawType="Log-normal" Mean="1.0E-6" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+        <inversion:GeologicalConstraints>
+          <inversion:ReferenceConstraint Deviation="1.0" LawType="Weibull" Mean="0.2" PercentageContribution="100" ConstraintName="Commonality"/>
+          <inversion:ReferenceConstraint Deviation="1.0" LawType="Normal" Mean="0.0" PercentageContribution="100" ConstraintName="CommonalityVolume"/>
+          <inversion:ReferenceConstraint Deviation="0.05" LawType="LogNormal" Mean="1.0" PercentageContribution="100" ConstraintName="VolumeRatio"/>
+          <inversion:ReferenceConstraint Deviation="0.05" LawType="LogNormal" Mean="1.0" PercentageContribution="100" ConstraintName="ShapeRatio"/>
+        </inversion:GeologicalConstraints>
+      </inversion:Formation>
+      <inversion:Formation FrontierMoveable="true" Index="10" Name="LateGranite1">
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="2.67" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.1" LawType="Log-normal" Mean="3.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-7" LawType="Log-normal" Mean="1.0E-6" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+        <inversion:GeologicalConstraints>
+          <inversion:ReferenceConstraint Deviation="1.0" LawType="Weibull" Mean="0.2" PercentageContribution="100" ConstraintName="Commonality"/>
+          <inversion:ReferenceConstraint Deviation="1.0" LawType="Normal" Mean="0.0" PercentageContribution="100" ConstraintName="CommonalityVolume"/>
+          <inversion:ReferenceConstraint Deviation="0.05" LawType="LogNormal" Mean="1.0" PercentageContribution="100" ConstraintName="VolumeRatio"/>
+          <inversion:ReferenceConstraint Deviation="0.05" LawType="LogNormal" Mean="1.0" PercentageContribution="100" ConstraintName="ShapeRatio"/>
+        </inversion:GeologicalConstraints>
+      </inversion:Formation>
+      <inversion:Formation FrontierMoveable="true" Index="9" Name="MaficDyke">
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="2.67" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.1" LawType="Log-normal" Mean="3.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-7" LawType="Log-normal" Mean="1.0E-6" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+        <inversion:GeologicalConstraints>
+          <inversion:ReferenceConstraint Deviation="1.0" LawType="Weibull" Mean="0.2" PercentageContribution="100" ConstraintName="Commonality"/>
+          <inversion:ReferenceConstraint Deviation="1.0" LawType="Normal" Mean="0.0" PercentageContribution="100" ConstraintName="CommonalityVolume"/>
+          <inversion:ReferenceConstraint Deviation="0.05" LawType="LogNormal" Mean="1.0" PercentageContribution="100" ConstraintName="VolumeRatio"/>
+          <inversion:ReferenceConstraint Deviation="0.05" LawType="LogNormal" Mean="1.0" PercentageContribution="100" ConstraintName="ShapeRatio"/>
+        </inversion:GeologicalConstraints>
+      </inversion:Formation>
+      <inversion:Formation FrontierMoveable="true" Index="8" Name="Miocene">
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.01" LawType="Normal" Mean="2.4" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-6" LawType="Normal" Mean="2.0E-4" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.1" LawType="Log-normal" Mean="2.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-7" LawType="Log-normal" Mean="1.0E-6" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+        <inversion:GeologicalConstraints>
+          <inversion:ReferenceConstraint Deviation="1.0" LawType="Weibull" Mean="0.2" PercentageContribution="100" ConstraintName="Commonality"/>
+          <inversion:ReferenceConstraint Deviation="1.0" LawType="Normal" Mean="0.0" PercentageContribution="100" ConstraintName="CommonalityVolume"/>
+          <inversion:ReferenceConstraint Deviation="0.05" LawType="LogNormal" Mean="1.0" PercentageContribution="100" ConstraintName="VolumeRatio"/>
+          <inversion:ReferenceConstraint Deviation="0.05" LawType="LogNormal" Mean="1.0" PercentageContribution="100" ConstraintName="ShapeRatio"/>
+        </inversion:GeologicalConstraints>
+      </inversion:Formation>
+      <inversion:Formation FrontierMoveable="true" Index="7" Name="Mesozoic">
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.01" LawType="Normal" Mean="2.5" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-6" LawType="Normal" Mean="1.0E-5" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.1" LawType="Log-normal" Mean="2.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-7" LawType="Log-normal" Mean="1.0E-6" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+        <inversion:GeologicalConstraints>
+          <inversion:ReferenceConstraint Deviation="1.0" LawType="Weibull" Mean="0.2" PercentageContribution="100" ConstraintName="Commonality"/>
+          <inversion:ReferenceConstraint Deviation="1.0" LawType="Normal" Mean="0.0" PercentageContribution="100" ConstraintName="CommonalityVolume"/>
+          <inversion:ReferenceConstraint Deviation="0.05" LawType="LogNormal" Mean="1.0" PercentageContribution="100" ConstraintName="VolumeRatio"/>
+          <inversion:ReferenceConstraint Deviation="0.05" LawType="LogNormal" Mean="1.0" PercentageContribution="100" ConstraintName="ShapeRatio"/>
+        </inversion:GeologicalConstraints>
+      </inversion:Formation>
+      <inversion:Formation FrontierMoveable="true" Index="6" Name="UPalaeozoic">
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.01" LawType="Normal" Mean="2.6" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-6" LawType="Normal" Mean="4.0E-5" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.1" LawType="Log-normal" Mean="1.5" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-7" LawType="Log-normal" Mean="1.0E-6" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+        <inversion:GeologicalConstraints>
+          <inversion:ReferenceConstraint Deviation="1.0" LawType="Weibull" Mean="0.2" PercentageContribution="100" ConstraintName="Commonality"/>
+          <inversion:ReferenceConstraint Deviation="1.0" LawType="Normal" Mean="0.0" PercentageContribution="100" ConstraintName="CommonalityVolume"/>
+          <inversion:ReferenceConstraint Deviation="0.05" LawType="LogNormal" Mean="1.0" PercentageContribution="100" ConstraintName="VolumeRatio"/>
+          <inversion:ReferenceConstraint Deviation="0.05" LawType="LogNormal" Mean="1.0" PercentageContribution="100" ConstraintName="ShapeRatio"/>
+        </inversion:GeologicalConstraints>
+      </inversion:Formation>
+      <inversion:Formation FrontierMoveable="true" Index="5" Name="PalaeoMarker">
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="2.67" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-6" LawType="Normal" Mean="2.0E-4" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.1" LawType="Log-normal" Mean="2.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-7" LawType="Log-normal" Mean="1.0E-6" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+        <inversion:GeologicalConstraints>
+          <inversion:ReferenceConstraint Deviation="1.0" LawType="Weibull" Mean="0.2" PercentageContribution="100" ConstraintName="Commonality"/>
+          <inversion:ReferenceConstraint Deviation="1.0" LawType="Normal" Mean="0.0" PercentageContribution="100" ConstraintName="CommonalityVolume"/>
+          <inversion:ReferenceConstraint Deviation="0.05" LawType="LogNormal" Mean="1.0" PercentageContribution="100" ConstraintName="VolumeRatio"/>
+          <inversion:ReferenceConstraint Deviation="0.05" LawType="LogNormal" Mean="1.0" PercentageContribution="100" ConstraintName="ShapeRatio"/>
+        </inversion:GeologicalConstraints>
+      </inversion:Formation>
+      <inversion:Formation FrontierMoveable="true" Index="4" Name="LPalaeozoic">
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.01" LawType="Normal" Mean="2.6" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-6" LawType="Normal" Mean="4.0E-5" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.1" LawType="Log-normal" Mean="2.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-7" LawType="Log-normal" Mean="1.0E-6" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+        <inversion:GeologicalConstraints>
+          <inversion:ReferenceConstraint Deviation="1.0" LawType="Weibull" Mean="0.2" PercentageContribution="100" ConstraintName="Commonality"/>
+          <inversion:ReferenceConstraint Deviation="1.0" LawType="Normal" Mean="0.0" PercentageContribution="100" ConstraintName="CommonalityVolume"/>
+          <inversion:ReferenceConstraint Deviation="0.05" LawType="LogNormal" Mean="1.0" PercentageContribution="100" ConstraintName="VolumeRatio"/>
+          <inversion:ReferenceConstraint Deviation="0.05" LawType="LogNormal" Mean="1.0" PercentageContribution="100" ConstraintName="ShapeRatio"/>
+        </inversion:GeologicalConstraints>
+      </inversion:Formation>
+      <inversion:Formation FrontierMoveable="true" Index="3" Name="Proterozoic">
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.01" LawType="Normal" Mean="2.8" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-6" LawType="Normal" Mean="5.0E-4" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.1" LawType="Log-normal" Mean="2.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-7" LawType="Log-normal" Mean="1.0E-6" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+        <inversion:GeologicalConstraints>
+          <inversion:ReferenceConstraint Deviation="1.0" LawType="Weibull" Mean="0.2" PercentageContribution="100" ConstraintName="Commonality"/>
+          <inversion:ReferenceConstraint Deviation="1.0" LawType="Normal" Mean="0.0" PercentageContribution="100" ConstraintName="CommonalityVolume"/>
+          <inversion:ReferenceConstraint Deviation="0.05" LawType="LogNormal" Mean="1.0" PercentageContribution="100" ConstraintName="VolumeRatio"/>
+          <inversion:ReferenceConstraint Deviation="0.05" LawType="LogNormal" Mean="1.0" PercentageContribution="100" ConstraintName="ShapeRatio"/>
+        </inversion:GeologicalConstraints>
+      </inversion:Formation>
+      <inversion:Formation FrontierMoveable="true" Index="2" Name="Granite">
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.01" LawType="Normal" Mean="2.7" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-6" LawType="Normal" Mean="8.0E-4" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.1" LawType="Log-normal" Mean="3.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-7" LawType="Log-normal" Mean="1.5E-5" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+        <inversion:GeologicalConstraints>
+          <inversion:ReferenceConstraint Deviation="1.0" LawType="Weibull" Mean="0.2" PercentageContribution="100" ConstraintName="Commonality"/>
+          <inversion:ReferenceConstraint Deviation="1.0" LawType="Normal" Mean="0.0" PercentageContribution="100" ConstraintName="CommonalityVolume"/>
+          <inversion:ReferenceConstraint Deviation="0.05" LawType="LogNormal" Mean="1.0" PercentageContribution="100" ConstraintName="VolumeRatio"/>
+          <inversion:ReferenceConstraint Deviation="0.05" LawType="LogNormal" Mean="1.0" PercentageContribution="100" ConstraintName="ShapeRatio"/>
+        </inversion:GeologicalConstraints>
+      </inversion:Formation>
+      <inversion:Formation FrontierMoveable="true" Index="1" Name="Basement">
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.01" LawType="Normal" Mean="2.9" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-6" LawType="Normal" Mean="4.0E-4" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.1" LawType="Log-normal" Mean="3.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1.0E-7" LawType="Log-normal" Mean="1.0E-6" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+        <inversion:GeologicalConstraints>
+          <inversion:ReferenceConstraint Deviation="1.0" LawType="Weibull" Mean="0.2" PercentageContribution="100" ConstraintName="Commonality"/>
+          <inversion:ReferenceConstraint Deviation="1.0" LawType="Normal" Mean="0.0" PercentageContribution="100" ConstraintName="CommonalityVolume"/>
+          <inversion:ReferenceConstraint Deviation="0.05" LawType="LogNormal" Mean="1.0" PercentageContribution="100" ConstraintName="VolumeRatio"/>
+          <inversion:ReferenceConstraint Deviation="0.05" LawType="LogNormal" Mean="1.0" PercentageContribution="100" ConstraintName="ShapeRatio"/>
+        </inversion:GeologicalConstraints>
+      </inversion:Formation>
+      <inversion:ObservedGrid ObservedIndex="1">
+        <inversion:FieldProperties ClearanceOrConstantElevation="0" ElevationGridIndex="-1" ElevationSampling="1200.0" ElevationType="OnTopography" Interpolate="false" Precision="0.1" Sampling="1" Type="Temperature"/>
+        <inversion:TrendMatching MatchTrend="false"/>
+      </inversion:ObservedGrid>
+      <inversion:Grid2DResource FieldName="" GridName="none.semi" Index="1" ParentIndex="-1" Type="Temperature"/>
+    </inversion:Common>
+    <inversion:Run Name="Thermal">
+      <inversion:InitialSettings DensityInitialiseStyle="FromLawMean" RemanentMagnetisationInitialiseStyle="FromLawMean" SusceptibilityInitialiseStyle="FromLawMean">
+        <inversion:Model LithologyInitialiseStyle="FromModel"/>
+        <inversion:InitialGrids3D/>
+      </inversion:InitialSettings>
+      <inversion:InversionControl IncludeBorderEffect="true" MatchTrends="true" MaximumIterations="100000" Method="Spatial" NumberIterations="1" WantForwardResponsePerLithology="false"/>
+      <inversion:MorphologicalFiltering/>
+      <inversion:RejectCriteria>
+        <inversion:Commonality/>
+        <inversion:CommonalityVolume/>
+        <inversion:Volume/>
+        <inversion:Shape/>
+      </inversion:RejectCriteria>
+      <inversion:ProposalsControl/>
+      <inversion:AdvancedLikelihoodControl/>
+    </inversion:Run>
+  </inversion:Case>
+</inversion:ManageLithoInversionState>

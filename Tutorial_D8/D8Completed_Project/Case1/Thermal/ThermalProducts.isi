@@ -1,0 +1,95 @@
+MetaData Begin
+	Name	= ThermalProducts.vo
+	Version	= "Intrepid GeoModeller v3.3.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build 6190f4ee95d4+ "
+	Lithology Begin
+		DataType	= Signed16BitInteger
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Comment	= Thermal
+		Alias	= Lithology
+		Units	= "Lithology"
+	Lithology End
+	Frontier Begin
+		DataType	= Signed16BitInteger
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Comment	= Thermal
+		Alias	= Frontier
+		Units	= "none"
+	Frontier End
+	Modifiable Begin
+		DataType	= Signed16BitInteger
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Comment	= Thermal
+		Alias	= Modifiable
+		Units	= "none"
+	Modifiable End
+	ThermalConductivity Begin
+		DataType	= IEEE4ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Comment	= Thermal
+		Alias	= ThermalConductivity
+		Units	= "J s-1m-1K-1"
+	ThermalConductivity End
+	HeatProductionRate Begin
+		DataType	= IEEE4ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Comment	= Thermal
+		Alias	= HeatProductionRate
+		Units	= "Wm-3"
+	HeatProductionRate End
+	Temperature Begin
+		DataType	= IEEE4ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Comment	= Thermal
+		Alias	= Temperature
+		Units	= "deg"
+	Temperature End
+	VerticalHeatFlow Begin
+		DataType	= IEEE4ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Comment	= Thermal
+		Alias	= VerticalHeatFlow
+		Units	= "Wm-3s-1"
+	VerticalHeatFlow End
+	VerticalTemperatureGradient Begin
+		DataType	= IEEE4ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Comment	= Thermal
+		Alias	= VerticalTemperatureGradient
+		Units	= "deg/m"
+	VerticalTemperatureGradient End
+	HorizontalTemperatureGradient Begin
+		DataType	= IEEE4ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Comment	= Thermal
+		Alias	= HorizontalTemperatureGradient
+		Units	= "deg/m"
+	HorizontalTemperatureGradient End
+	Extensions Begin
+		LithologyMapping Begin
+			Map = {
+				"13" "Cover" "255a255r246g142b"
+				"12" "LateGranite3" "255a255r019g147b"
+				"11" "LateGranite2" "255a205r038g038b"
+				"10" "LateGranite1" "255a255r019g147b"
+				"9" "MaficDyke" "255a000r100g000b"
+				"8" "Miocene" "255a205r149g012b"
+				"7" "Mesozoic" "255a142r188g142b"
+				"6" "UPalaeozoic" "255a126r191g237b"
+				"5" "PalaeoMarker" "255a000r000g255b"
+				"4" "LPalaeozoic" "255a126r191g237b"
+				"3" "Proterozoic" "255a205r200g165b"
+				"2" "Granite" "255a255r047g047b"
+				"1" "Basement" "255a255r105g105b"
+}
+		LithologyMapping End
+	Extensions End
+MetaData End

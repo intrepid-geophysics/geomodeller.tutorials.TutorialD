@@ -1,0 +1,16 @@
+HoleID,From,To,Geology
+DDH1,0,341.32,Cover
+DDH1,341.32,869.23,LPalaeozoic
+DDH1,869.23,3394.42,Proterozoic
+DDH1,3394.42,4500,Basement
+DDH2,0,314.85,Cover
+DDH2,314.85,4344.54,UPalaeozoic
+DDH2,4344.54,4654.51,PalaeoMarker
+DDH2,4654.51,5350.13,LPalaeozoic
+DDH2,5350.13,5360,Proterozoic
+DDH3,0,228.72,Miocene
+DDH3,228.72,862.98,Mesozoic
+DDH3,862.98,5400.53,UPalaeozoic
+DDH3,5400.53,5710.13,PalaeoMarker
+DDH3,5710.13,6404.97,LPalaeozoic
+DDH3,6404.97,6410,Proterozoic

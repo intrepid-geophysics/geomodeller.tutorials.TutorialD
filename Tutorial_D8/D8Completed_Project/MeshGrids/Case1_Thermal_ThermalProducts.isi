@@ -1,0 +1,190 @@
+MetaData Begin
+	Name	= Case1_Thermal_ThermalProducts.igmesh
+	Version	= "Intrepid GeoModeller v3.3.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build 6190f4ee95d4+ "
+	voxet_Lithology Begin
+		DataType	= Signed32BitInteger
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Alias	= Lithology
+		Units	= "Lithology"
+	voxet_Lithology End
+	voxet_Frontier Begin
+		DataType	= Signed32BitInteger
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Alias	= Frontier
+		Units	= "none"
+	voxet_Frontier End
+	voxet_Modifiable Begin
+		DataType	= Signed32BitInteger
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Alias	= Modifiable
+		Units	= "none"
+	voxet_Modifiable End
+	voxet_ThermalConductivity Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Alias	= ThermalConductivity
+		Units	= "J s-1m-1K-1"
+	voxet_ThermalConductivity End
+	voxet_HeatProductionRate Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Alias	= HeatProductionRate
+		Units	= "Wm-3"
+	voxet_HeatProductionRate End
+	voxet_Temperature Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Alias	= Temperature
+		Units	= "deg"
+	voxet_Temperature End
+	voxet_VerticalHeatFlow Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Alias	= VerticalHeatFlow
+		Units	= "Wm-3s-1"
+	voxet_VerticalHeatFlow End
+	voxet_VerticalTemperatureGradient Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Alias	= VerticalTemperatureGradient
+		Units	= "deg/m"
+	voxet_VerticalTemperatureGradient End
+	voxet_HorizontalTemperatureGradient Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Alias	= HorizontalTemperatureGradient
+		Units	= "deg/m"
+	voxet_HorizontalTemperatureGradient End
+	MeshGrid Begin
+		Type	= regular-grid
+		Dimensions	= 3
+		Purpose	= MODEL
+		Suffix	= .vo
+		Format	= iovoxet
+		Name	= Case1_Thermal_ThermalProducts
+		Projection	= "NUTM54"
+		Datum	= "WGS84"
+		GridExtents = {
+			             20
+			             20
+			             10
+}
+		Origin = {
+			   51000.000000
+			  101000.000000
+			   -9400.000000
+}
+		Spacing = {
+			    2000.000000
+			    2000.000000
+			    1200.000000
+}
+		BasisX = {
+			       1.000000
+			              0
+			              0
+}
+		BasisY = {
+			              0
+			       1.000000
+			              0
+}
+		BasisZ = {
+			              0
+			              0
+			       1.000000
+}
+		FieldData Begin
+			Lithology Begin
+				Resource	= Case1_Thermal_ThermalProducts.igmesh/Case1_Thermal_ThermalProducts.vo
+				Name	= Lithology
+				Primitive	= voxet
+				DataType	= Signed32BitInteger
+				Units	= Lithology
+				Alias	= Lithology
+				NumElem	= 4000
+			Lithology End
+			Frontier Begin
+				Resource	= Case1_Thermal_ThermalProducts.igmesh/Case1_Thermal_ThermalProducts.vo
+				Name	= Frontier
+				Primitive	= voxet
+				DataType	= Signed32BitInteger
+				Units	= none
+				Alias	= Frontier
+				NumElem	= 4000
+			Frontier End
+			Modifiable Begin
+				Resource	= Case1_Thermal_ThermalProducts.igmesh/Case1_Thermal_ThermalProducts.vo
+				Name	= Modifiable
+				Primitive	= voxet
+				DataType	= Signed32BitInteger
+				Units	= none
+				Alias	= Modifiable
+				NumElem	= 4000
+			Modifiable End
+			ThermalConductivity Begin
+				Resource	= Case1_Thermal_ThermalProducts.igmesh/Case1_Thermal_ThermalProducts.vo
+				Name	= ThermalConductivity
+				Primitive	= voxet
+				DataType	= IEEE8ByteReal
+				Units	= J s-1m-1K-1
+				Alias	= ThermalConductivity
+				NumElem	= 4000
+			ThermalConductivity End
+			HeatProductionRate Begin
+				Resource	= Case1_Thermal_ThermalProducts.igmesh/Case1_Thermal_ThermalProducts.vo
+				Name	= HeatProductionRate
+				Primitive	= voxet
+				DataType	= IEEE8ByteReal
+				Units	= Wm-3
+				Alias	= HeatProductionRate
+				NumElem	= 4000
+			HeatProductionRate End
+			Temperature Begin
+				Resource	= Case1_Thermal_ThermalProducts.igmesh/Case1_Thermal_ThermalProducts.vo
+				Name	= Temperature
+				Primitive	= voxet
+				DataType	= IEEE8ByteReal
+				Units	= deg
+				Alias	= Temperature
+				NumElem	= 4000
+			Temperature End
+			VerticalHeatFlow Begin
+				Resource	= Case1_Thermal_ThermalProducts.igmesh/Case1_Thermal_ThermalProducts.vo
+				Name	= VerticalHeatFlow
+				Primitive	= voxet
+				DataType	= IEEE8ByteReal
+				Units	= Wm-3s-1
+				Alias	= VerticalHeatFlow
+				NumElem	= 4000
+			VerticalHeatFlow End
+			VerticalTemperatureGradient Begin
+				Resource	= Case1_Thermal_ThermalProducts.igmesh/Case1_Thermal_ThermalProducts.vo
+				Name	= VerticalTemperatureGradient
+				Primitive	= voxet
+				DataType	= IEEE8ByteReal
+				Units	= deg/m
+				Alias	= VerticalTemperatureGradient
+				NumElem	= 4000
+			VerticalTemperatureGradient End
+			HorizontalTemperatureGradient Begin
+				Resource	= Case1_Thermal_ThermalProducts.igmesh/Case1_Thermal_ThermalProducts.vo
+				Name	= HorizontalTemperatureGradient
+				Primitive	= voxet
+				DataType	= IEEE8ByteReal
+				Units	= deg/m
+				Alias	= HorizontalTemperatureGradient
+				NumElem	= 4000
+			HorizontalTemperatureGradient End
+		FieldData End
+	MeshGrid End
+MetaData End

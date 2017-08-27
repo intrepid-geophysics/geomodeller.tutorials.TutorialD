@@ -1,0 +1,22 @@
+
+[23/09/2015 14:46:48.173000] Processing job file: "D:/NewTutorial_2014/Tutorial_D/Tutorial_D8/D8Beginning_Project/Case1/Thermal/runForwardModelTemperature.task"
+
+ForwardModelTemperatureForCreateCaseFromVoxet_GMT {
+filename: "D:/NewTutorial_2014/Tutorial_D/Tutorial_D8/D8Beginning_Project/D8Beginning_Project.xml"
+case: "Case1"
+input_voxet: "D:/NewTutorial_2014/Tutorial_D/Tutorial_D8/D8Beginning_Project/Case1/Thermal/initial.vo"
+NumberOfIterations: 20000
+MaxResidualTemperature: 0.0001
+Advanced: true
+Surface_Temperature_Law {
+  type: Rayleigh
+  mean: 20
+  stddev: 0
+}
+Base_Heatflow_Law {
+  type: Rayleigh
+  mean: 0.03
+  stddev: 0
+}
+ReinitialiseFromModel: false
+}

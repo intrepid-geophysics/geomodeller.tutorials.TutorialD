@@ -1,0 +1,208 @@
+MetaData Begin
+	Name	= Microseismic_Database_Stim_08_10.igmesh
+	Version	= "Intrepid GeoModeller v3.3.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build 6190f4ee95d4+ "
+	node_Event-ID_ Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Units	= "none"
+	node_Event-ID_ End
+	node_date Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Units	= "none"
+	node_date End
+	node_hour Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Units	= "none"
+	node_hour End
+	node_Xerr Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= Xerror
+		Units	= "none"
+	node_Xerr End
+	node_Yerr Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= Yerror
+		Units	= "none"
+	node_Yerr End
+	node_Zerr Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= Zerror
+		Units	= "none"
+	node_Zerr End
+	node_M Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= ?
+		Units	= "none"
+	node_M End
+	node_Strike Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= Strike
+		Units	= "none"
+	node_Strike End
+	node_Dip Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= Dip
+		Units	= "none"
+	node_Dip End
+	node_Rake Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= Rake
+		Units	= "none"
+	node_Rake End
+	node_WID Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= none
+		Units	= "none"
+	node_WID End
+	node_DateTime Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= DateTime
+		Units	= "time"
+	node_DateTime End
+	MeshGrid Begin
+		Type	= unstructured-mesh
+		Dimensions	= 3
+		Purpose	= MODEL
+		Description	= no description
+		Suffix	= ..DIR
+		Format	= iotable
+		Name	= Microseismic_Database_Stim_08_10
+		Projection	= "NUTM54"
+		Datum	= "WGS84"
+		XYZ Begin
+			Resource	= Microseismic_Database_Stim_08_10.igmesh/node..DIR
+			Primitive	= node
+			NumElem	= 17850
+		XYZ End
+		FieldData Begin
+			Event-ID_ Begin
+				Resource	= Microseismic_Database_Stim_08_10.igmesh/node..DIR
+				Name	= Event-ID_
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				NumElem	= 17850
+			Event-ID_ End
+			date Begin
+				Resource	= Microseismic_Database_Stim_08_10.igmesh/node..DIR
+				Name	= date
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				NumElem	= 17850
+			date End
+			hour Begin
+				Resource	= Microseismic_Database_Stim_08_10.igmesh/node..DIR
+				Name	= hour
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				NumElem	= 17850
+			hour End
+			Xerr Begin
+				Resource	= Microseismic_Database_Stim_08_10.igmesh/node..DIR
+				Name	= Xerr
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= Xerror
+				NumElem	= 17850
+			Xerr End
+			Yerr Begin
+				Resource	= Microseismic_Database_Stim_08_10.igmesh/node..DIR
+				Name	= Yerr
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= Yerror
+				NumElem	= 17850
+			Yerr End
+			Zerr Begin
+				Resource	= Microseismic_Database_Stim_08_10.igmesh/node..DIR
+				Name	= Zerr
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= Zerror
+				NumElem	= 17850
+			Zerr End
+			M Begin
+				Resource	= Microseismic_Database_Stim_08_10.igmesh/node..DIR
+				Name	= M
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= ?
+				NumElem	= 17850
+			M End
+			Strike Begin
+				Resource	= Microseismic_Database_Stim_08_10.igmesh/node..DIR
+				Name	= Strike
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= Strike
+				NumElem	= 17850
+			Strike End
+			Dip Begin
+				Resource	= Microseismic_Database_Stim_08_10.igmesh/node..DIR
+				Name	= Dip
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= Dip
+				NumElem	= 17850
+			Dip End
+			Rake Begin
+				Resource	= Microseismic_Database_Stim_08_10.igmesh/node..DIR
+				Name	= Rake
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= Rake
+				NumElem	= 17850
+			Rake End
+			WID Begin
+				Resource	= Microseismic_Database_Stim_08_10.igmesh/node..DIR
+				Name	= WID
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= none
+				NumElem	= 17850
+			WID End
+			DateTime Begin
+				Resource	= Microseismic_Database_Stim_08_10.igmesh/node..DIR
+				Name	= DateTime
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= time
+				Alias	= DateTime
+				NumElem	= 17850
+			DateTime End
+		FieldData End
+	MeshGrid End
+MetaData End

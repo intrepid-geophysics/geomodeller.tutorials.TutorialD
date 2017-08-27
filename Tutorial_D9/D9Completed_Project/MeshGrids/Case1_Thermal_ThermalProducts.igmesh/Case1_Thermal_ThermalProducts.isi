@@ -1,0 +1,72 @@
+MetaData Begin
+	Name	= Case1_Thermal_ThermalProducts.vo
+	Version	= "Intrepid GeoModeller v3.3.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build 6190f4ee95d4+ "
+	Lithology Begin
+		DataType	= Signed32BitInteger
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Alias	= Lithology
+		Units	= "Lithology"
+	Lithology End
+	Frontier Begin
+		DataType	= Signed32BitInteger
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Alias	= Frontier
+		Units	= "none"
+	Frontier End
+	Modifiable Begin
+		DataType	= Signed32BitInteger
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Alias	= Modifiable
+		Units	= "none"
+	Modifiable End
+	ThermalConductivity Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Alias	= ThermalConductivity
+		Units	= "J s-1m-1K-1"
+	ThermalConductivity End
+	HeatProductionRate Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Alias	= HeatProductionRate
+		Units	= "Wm-3"
+	HeatProductionRate End
+	Temperature Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Alias	= Temperature
+		Units	= "deg"
+	Temperature End
+	VerticalHeatFlow Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Alias	= VerticalHeatFlow
+		Units	= "Wm-3s-1"
+	VerticalHeatFlow End
+	VerticalTemperatureGradient Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Alias	= VerticalTemperatureGradient
+		Units	= "deg/m"
+	VerticalTemperatureGradient End
+	HorizontalTemperatureGradient Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= voxet
+		Alias	= HorizontalTemperatureGradient
+		Units	= "deg/m"
+	HorizontalTemperatureGradient End
+	Extensions Begin
+		LithologyMapping Begin
+			Empty = yes
+		LithologyMapping End
+	Extensions End
+MetaData End

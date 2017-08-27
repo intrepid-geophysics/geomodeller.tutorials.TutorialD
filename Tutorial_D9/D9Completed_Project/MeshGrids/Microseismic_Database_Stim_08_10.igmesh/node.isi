@@ -1,0 +1,94 @@
+MetaData Begin
+	Name	= node..DIR
+	Version	= "Intrepid GeoModeller v3.3.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build 6190f4ee95d4+ "
+	DateTime Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+	DateTime End
+	Dip Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+	Dip End
+	Event-ID_ Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+	Event-ID_ End
+	M Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+	M End
+	Rake Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+	Rake End
+	Strike Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+	Strike End
+	WID Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+	WID End
+	Xerr Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+	Xerr End
+	Yerr Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+	Yerr End
+	Zerr Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+	Zerr End
+	_X_ Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+	_X_ End
+	_Y_ Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+	_Y_ End
+	_Z_ Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+	_Z_ End
+	date Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+	date End
+	hour Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+	hour End
+MetaData End
